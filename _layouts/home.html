@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <style>
+      .subheader {
+        height:300px;
+        background: url('/assets/mak.jpg') no-repeat center;
+        background-size: cover;
+      }
+    </style>
+
+    <div class='subheader'>
+
+    </div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

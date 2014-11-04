@@ -6,8 +6,11 @@ description: > # this means to ignore newlines until "baseurl:"
   things on the web.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://southerneer.com" # the base hostname & protocol for your site
-twitter_username: southerneer
+twitter_username: southerneeric
 github_username:  southerneer
 
 # Build settings
 markdown: kramdown
+
+# Outputting
+permalink: /:title.html
