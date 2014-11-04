@@ -14,3 +14,5 @@ markdown: kramdown
 
 # Outputting
 permalink: /:title.html
+
+destination: website

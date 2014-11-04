@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Southerneer</title>
+    <description>Southerneer is a technology company dedicated to making things beautifully functional things on the web.
+</description>
+    <link>http://southerneer.com/</link>
+    <atom:link href="http://southerneer.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 04 Nov 2014 17:32:54 -0500</pubDate>
+    <lastBuildDate>Tue, 04 Nov 2014 17:32:54 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>This Jekyll Thing</title>
+        <description>&lt;p&gt;Trying out Jekyll for the first time. I like the idea of maintaining a blog via git repo.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 05 Nov 2014 10:03:00 -0500</pubDate>
+        <link>http://southerneer.com/this-jekyll-thing.html</link>
+        <guid isPermaLink="true">http://southerneer.com/this-jekyll-thing.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Talking to normal people</title>
+        <description>&lt;p&gt;I&#39;m an engineer by profession. And for better or worse, I&#39;m an engineer by train of thought. In particular, I have a very specific notion of &quot;truth&quot; and &quot;correct&quot;. I don&#39;t like to claim that I know how something works without having tested it myself or at least having it explained thoroughly by someone who has.&lt;/p&gt;
+&lt;p&gt;Let&#39;s say I&#39;m working on a web page and I need to add a button to pop up a message to the user. Simple. This is a common piece of functionality that I&#39;ve implemented a million times previously and I could write that code in my sleep. But if I were to do it right now I would still test it. I would have to. Because if you&#39;re a software engineer and you don&#39;t test your work then your work will suck. I prefer that my work not suck so I make sure that every little thing functions correctly before moving on.&lt;/p&gt;
+&lt;p&gt;This kind of thinking isn&#39;t exclusive to engineers, but the nature of the job (always building stuff) and the consequences for the simplest of mistakes (a misplaced semi-colon or an off-by-one math error) combined with the innate tendencies of folks who are drawn to a life of messing with 1s and 0s make for peculiar and somewhat obsessive personalities.&lt;/p&gt;
+&lt;p&gt;What am I getting at? Well, this kind of &quot;precise&quot; thinking inevitably bleeds over into completely unrelated aspects of life...like everyday conversations. If I realize that someone is telling me something that is technically incorrect it is reeeeally hard to resist correcting them. It&#39;s the &quot;&lt;a href=&quot;http://tirania.org/blog/archive/2011/Feb-17.html&quot;&gt;well actually&lt;/a&gt;&quot; phenomenon.&lt;/p&gt;
+&lt;p&gt;Person: &quot;You&#39;re feeling sick? You should drink this MegaVitaGreenJuice blend. It&#39;s got so much vitamin C that it&#39;s bound to help!&quot;&lt;br /&gt;
+Me: &quot;Well actually, your body can only absorb so much vitamin C and the extra 400% of the daily allowance in that drink will just get flushed out the next time I take a piss.&quot;&lt;br /&gt;
+Person: &quot;...&quot;&lt;br /&gt;
+Me: &quot;I&#39;m just sayin...but thanks for the tip and the general good vibes! I swear I&#39;m not a dick!&quot;&lt;/p&gt;
+&lt;p&gt;This deep-rooted impulse to correct even the most innocuous and well meaning assertions almost invariably makes me sound like a prick. And because I realize this in the moment as I&#39;m well-actually-ing some poor soul, I hesitate and try to soften the correction thus making it sound even &lt;em&gt;more&lt;/em&gt; condescending. It&#39;s a vicious problem.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been thinking about this a lot these days because I don&#39;t hang out with many (any?) engineer thinkers on a regular basis. I can&#39;t get my daily allotment of truth speaking out of the way and it boils over into conversation with &quot;normal people&quot;. Let this post be an open apology to those people...I&#39;m sorry and I&#39;m working on it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Jul 2014 21:59:07 -0400</pubDate>
+        <link>http://southerneer.com/talking-normal-people.html</link>
+        <guid isPermaLink="true">http://southerneer.com/talking-normal-people.html</guid>
+        
+        
+        <category>coding</category>
+        
+        <category>psychology</category>
+        
+      </item>
+    
+      <item>
+        <title>Currently active and you can not deactivate it</title>
+        <description>&lt;p&gt;&amp;lt;Rant&amp;gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;For better or worse, my current job requires at least a cursory knowledge of how to set up and run Facebook Ads. This is true for many other people&#39;s jobs. The ad platform is constantly changing and often broken to some extent. New bugs arise and the documentation is constantly outdated and behind the changes. Facebook makes a lot of money off of these ads but they&#39;re under constant pressure to improve the ads platform (to make more money to satisfy investors). The platform is just a chunk of software (albeit massive) which means it can change as fast as Facebook&#39;s engineers can crank out new code and the documentation is always a few iterations behind. Being a developer I understand that it&#39;s a tough problem to solve but Facebook has the resources to do this way better. Step up your game, dawg.&lt;/p&gt;
+&lt;p&gt;&amp;lt;/Rant&amp;gt;&lt;/p&gt;
+&lt;p&gt;All this is to say that the Facebook Ad platform is a moving target with constantly outdated documentation. Blogs (like this one) are the best way to keep abreast of the ever-changing landscape so as not to get completely lost and confused. To that end I&#39;m posting my theory on this strange message I saw in Facebook Power Editor...&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;aligncenter size-full wp-image-1321&quot; src=&quot;/assets/Screen-Shot-2014-07-09-at-11.33.35-AM.png&quot; alt=&quot;Power editor screenshot&quot; width=&quot;497&quot; height=&quot;112&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As of this writing, there&#39;s nothing in the documentation to explain this bewildering message. A quick Google search of the phrase &quot;currently active and you cannot deactivate it&quot; reveals...nothing. My theory is that since my ad is under review it is in a limbo state and no changes can be made to it. Once it&#39;s been approved I can deactivate or make any number of other changes. Or it will get rejected and get deactivated. Either way I have to wait and hypothesize. Hopefully this post (and subsequent comments ;) ) will shed some light on this small mystery.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Jul 2014 00:44:02 -0400</pubDate>
+        <link>http://southerneer.com/currently-active-deactivate.html</link>
+        <guid isPermaLink="true">http://southerneer.com/currently-active-deactivate.html</guid>
+        
+        <category>facebook</category>
+        
+        <category>job</category>
+        
+        <category>work</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Azure websites in Seoul</title>
+        <description>&lt;p&gt;Over the past few months I&#39;ve had to hack together a few Wordpress websites. I&#39;ve hosted everything in Azure Websites to simplify the backend administration and this has worked out pretty well for the most part. One thing about the process has tickled the back of my mind though: am I setting up my sites in such a way that they&#39;re served efficiently to end-users?&lt;/p&gt;
+&lt;p&gt;Right now I&#39;m based in Seoul and a few of the websites we&#39;ve set up (like &lt;a href=&quot;http://koreaultimate.net/&quot;&gt;KUPA&lt;/a&gt; and &lt;a href=&quot;http://redwoodshop.co.kr/&quot;&gt;Wooden Bow Ties&lt;/a&gt;) have content aimed at South Koreans. Unfortunately, Microsoft doesn&#39;t have any data centers in South Korea but there are &lt;a href=&quot;http://azure.microsoft.com/en-us/regions/#asia-pacific&quot;&gt;nearby choices&lt;/a&gt; of East Asia (Hong Kong), Southeast Asia (Singapore), and West Japan (Osaka). As the crow flies, Osaka is much closer to Seoul than the other two, but data doesn&#39;t always travel in a direct line so I decided to do a quick latency test of a typical Wordpress installation. The results were a bit surprising.&lt;/p&gt;
+&lt;p&gt;For my test I set up two identical Wordpress sites -- one hosted in the Japan West datacenter and one hosted in the East Asia datacenter. Then, using Google Chrome&#39;s &lt;a href=&quot;https://developers.google.com/chrome-developer-tools/&quot;&gt;dev tools&lt;/a&gt;, I measured the latency of requests for the same Wordpress Admin page. I chose to only compare requests that returned a 304 (not modified) response since this removes the variable of server processing and isolates the data roundtrip time. Here are the results:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;East Asia&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/3easia.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1081&quot; src=&quot;/assets/3easia.png&quot; alt=&quot;3easia&quot; width=&quot;705&quot; height=&quot;157&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-easia.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1101&quot; src=&quot;/assets/thickbox-easia.png&quot; alt=&quot;thickbox-easia&quot; width=&quot;702&quot; height=&quot;73&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;West Japan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-japan.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1071&quot; src=&quot;/assets/3japan.png&quot; alt=&quot;3japan&quot; width=&quot;713&quot; height=&quot;156&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-japan.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1091&quot; src=&quot;/assets/thickbox-japan.png&quot; alt=&quot;thickbox-japan&quot; width=&quot;710&quot; height=&quot;71&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Comparing the latency metrics (in the far right column) you&#39;ll notice that requests to West Japan took significantly longer than the same requests to East Asia. In this simple example the time difference is negligible, but in a typical Wordpress page request that serves up many different files (stylesheets, images, fonts, html, javascript, etc) the extra time would definitely add up to a significantly longer wait on each page load.&lt;/p&gt;
+&lt;p&gt;The upshot: any websites hosted on Azure that plan to serve information to users in Seoul should target the East Asia datacenter. While the West Japan datacenter might be geographically closer, there is obviously some routing inefficiency between there and Seoul which makes it a less desirable option.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Apr 2014 18:39:52 -0400</pubDate>
+        <link>http://southerneer.com/azure-websites-in-seoul.html</link>
+        <guid isPermaLink="true">http://southerneer.com/azure-websites-in-seoul.html</guid>
+        
+        <category>azure websites</category>
+        
+        <category>korea</category>
+        
+        <category>web dev</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
+    
+      <item>
+        <title>The Slow Bleed</title>
+        <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Whenever I go out to eat with friends I like to play a game called Credit Card Roulette. The rules are pretty simple: when it&#39;s time to pay the bill each person throws a credit card into a hat, a server shuffles them up and draws one card at a time, last card drawn pays the whole bill. It&#39;s fun, it spices things up a bit, and it&#39;s way simpler than splitting up the bill and dealing with cash and multiple credit cards.&lt;/p&gt;
+&lt;p&gt;For a person hearing about the rules for the first time there are two possible reactions. &quot;Sweet! I have a good chance of getting a free meal!&quot; OR &quot;Whoa, I just can&#39;t stomach the idea of paying the whole bill&quot;. Both are natural first impressions. If it&#39;s a large bill or your checking account is a little light then this game probably doesn&#39;t make sense to play. But assuming you have a comfortable bankroll then the risk vs. reward is perfectly balanced...meaning that if you play enough times you&#39;ll end up with the same financial hit as if you just paid each bill individually.&lt;/p&gt;
+&lt;p&gt;What&#39;s fascinating is the psychology of the pain of loss vs. the pleasure of winning. Credit card roulette is a game of many small wins and a few big losses. If you disregard the math and statistics and concentrate on the &lt;em&gt;feeling&lt;/em&gt; of any particular outcome then you might conclude that the wins are relatively insignificant compared to the massive pain of having to pay the table&#39;s tab. Even after explaining the statistics and how over the long run you end up paying the same, many people can&#39;t get past the concept of that big number.&lt;/p&gt;
+&lt;p&gt;Now let&#39;s flip focus to a different game: the lottery. I&#39;ll assume that you know the rules of a lottery and just point out that in contrast to Credit Card Roulette, the psychology of a lottery is flip-flopped. Over the long run a person will experience many small losses (buying a lottery ticket) vs very few (if any) very large gains (winning the lottery). In strictly statistical terms, all for-profit lotteries (i.e. all state lotteries) are not risk-reward balanced. In other words, you&#39;ll end up paying more than you win back in the long run. But even after explaining that statistical fact it can be hard to disregard the psychological impact of that big win...&lt;/p&gt;
+&lt;p&gt;I like to think of this psychological phenomenon as the Slow Bleed. People are more likely to feel comfortable with small pains with an eye toward a big payout as opposed to gaining a few small payments at a time with a few large losses. I don&#39;t have any statistics or studies to back up this intuition, but I think that more people favor the former over the latter...even if statistics would dictate otherwise.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Apr 2014 11:31:09 -0400</pubDate>
+        <link>http://southerneer.com/the-slow-bleed.html</link>
+        <guid isPermaLink="true">http://southerneer.com/the-slow-bleed.html</guid>
+        
+        
+        <category>psychology</category>
+        
+      </item>
+    
+      <item>
+        <title>Basketball in Korea</title>
+        <description>&lt;p&gt;It&#39;s cold and crowded here in Seoul. Finding an indoor court to play basketball on is especially difficult if you don&#39;t have some kind of inside connection. So we have to take what we can get, which most of the time is a dusty court nestled in the grounds of Yonsei University. Here&#39;s me and my buddy Clay playing a few months ago when it was maybe 20 degrees outside (Fahrenheit for all you backwards Americans).&lt;/p&gt;
+&lt;p&gt;[raw] &lt;iframe src=&quot;//www.youtube.com/embed/HqXkkJrVRNE?rel=0&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt; [/raw]&lt;/p&gt;
+&lt;p&gt;I must admit I felt pretty good about making that little hesitation half-fader off a post-up. Something like...&lt;/p&gt;
+&lt;p&gt;[raw] &lt;iframe src=&quot;//www.youtube.com/embed/FQ3slUz7Jo8?rel=0&amp;amp;start=267&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt; [/raw]&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Mar 2014 22:13:26 -0400</pubDate>
+        <link>http://southerneer.com/basketball-in-korea.html</link>
+        <guid isPermaLink="true">http://southerneer.com/basketball-in-korea.html</guid>
+        
+        <category>korea</category>
+        
+        
+        <category>basketball</category>
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>South Korea</title>
+        <description>&lt;p&gt;[caption id=&quot;attachment_291&quot; align=&quot;aligncenter&quot; width=&quot;1024&quot;]&lt;img class=&quot;size-full wp-image-291 &quot; alt=&quot;Seoul&quot; src=&quot;/assets/seoul.jpg&quot; width=&quot;1024&quot; height=&quot;640&quot; /&gt; Image courtesy of http://www.apturfactory.com[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;Fireside chats&quot; href=&quot;http://en.wikipedia.org/wiki/Fireside_chats&quot;&gt;My friends&lt;/a&gt;,&lt;br /&gt;
+If you didn&#39;t already know, I&#39;m moving to South Korea! I&#39;ll be shipping out on September 21st with &lt;a title=&quot;Whitney Wins!&quot; href=&quot;http://whitneywins.wordpress.com/&quot;&gt;my lady&lt;/a&gt; and we&#39;ll be gone for at least a year. Whitney will be teaching Engrish to little Korean children in &lt;a title=&quot;Incheon&quot; href=&quot;http://en.wikipedia.org/wiki/Incheon&quot;&gt;Incheon&lt;/a&gt; and I&#39;ll be working with my old buddy Clay.&lt;/p&gt;
+&lt;p&gt;This move promises to be many things...&lt;/p&gt;
+&lt;h3&gt;A Bummer&lt;/h3&gt;
+&lt;p&gt;...because I&#39;ll no longer get to jam out with &lt;a title=&quot;Trial by Fire&quot; href=&quot;http://www.trialbyfirejourney.net/&quot;&gt;Trial by Fire&lt;/a&gt; or &lt;a title=&quot;5 on Sundays&quot; href=&quot;http://www.fiveonsundays.com/&quot;&gt;5 on Sundays&lt;/a&gt;. This past year has been an amazing time when I&#39;ve gotten to play drums in both of these bands. In TBF, I had the challenge of meshing with a well-established group and learning all the ins and outs of playing a live show. After just one month of small weekend gigs I was playing on the big stage at &lt;a title=&quot;The Fillmore Charlotte&quot; href=&quot;http://fillmorecharlottenc.com/&quot;&gt;The Fillmore&lt;/a&gt; in front of a thousand people! In 5OS, I participated in the start of a brand new band that is rapidly gaining recognition in the Charlotte live music scene. We started practicing in earnest in January of this year and we&#39;ve already played 5 shows in front of hundreds of people! I&#39;ve made lifelong friends in my bandmates from each group and I&#39;ll really miss the experience of playing with them.&lt;/p&gt;
+&lt;p&gt;I&#39;ll also be leaving my friends and family in the Charlotte area. I won&#39;t be able to grab lunch with the uptown working folks anymore. No more Wednesday basketball at Charlotte Prep. No more haircut clubs. No more Bobcats/Hornets games. No more grilling on the patio. Sad face.&lt;/p&gt;
+&lt;h3&gt;A Challenge&lt;/h3&gt;
+&lt;p&gt;...because my world will be changing entirely. I&#39;m taking on a new and exciting role with Clay&#39;s startup company, &lt;a title=&quot;Redwood&quot; href=&quot;http://redwood-inc.com/?page_id=17&amp;amp;lang=en&quot;&gt;Redwood&lt;/a&gt;. I&#39;ll have to learn the language. I&#39;ll have to figure out how to get around in &lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_urban_areas_by_population&quot;&gt;one of the largest cities in the world&lt;/a&gt;. I&#39;ll have to cope with a culture that thinks &quot;barbecue&quot; means &lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2013/08/kbarbecue.jpg&quot;&gt;this&lt;/a&gt; instead of &lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2013/08/barbecue.jpg&quot;&gt;this&lt;/a&gt; and has never even heard of &lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2013/08/sweet-tea.jpg&quot;&gt;this&lt;/a&gt;. Apprehensive face.&lt;/p&gt;
+&lt;h3&gt;Awesome&lt;/h3&gt;
+&lt;p&gt;...because I get to live out a lifelong dream! I never studied abroad in college and while I&#39;ve traveled all over the US and even to different countries I&#39;ve never &lt;em&gt;lived&lt;/em&gt; in a foreign country. There&#39;s always been a good excuse to not do it, but as I approach 30 years on this earth it&#39;s become clear that I need to shit or get off the pot. And who better to shit with than my lovely girlfriend Whitney?! (phrasing could use a little work there, but you get the gist).&lt;/p&gt;
+&lt;h3&gt;Are you gone forever?&lt;/h3&gt;
+&lt;p&gt;Nope, just a year initially. In fact, Whitney and I will both be forced to leave Korea after a year because our work visas will expire. And while we&#39;ll physically be on the other side of the world we&#39;ll still be easily reachable. There&#39;s always email, &lt;a href=&quot;https://www.facebook.com/the.eric.kirkham&quot;&gt;Facebook&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/jerkham&quot;&gt;Twitter&lt;/a&gt;. And I have a permanent phone number thanks to Google Voice. And Whitney and I will (hopefully) be composing some video messages of our new experiences in Korea. It&#39;s only a year and it&#39;ll fly by before you know it, but in the meantime I&#39;ll miss my friends and family back home dearly.&lt;/p&gt;
+&lt;p&gt;One really good way of alleviating the pain of parting: come visit us! We won&#39;t have a ton of room (I&#39;ll be rooming with Clay and Whitney will be cozied up in a studio apartment) but if you can stomach the airfare and sleeping on a couch then we will show you an amazing time in South Korea where the food is tasty and cheap, the beer is plentiful, the &lt;a href=&quot;http://en.wikipedia.org/wiki/Soju&quot;&gt;soju&lt;/a&gt; even more plentiful, the people &lt;em&gt;adore&lt;/em&gt; Americans, and &lt;a href=&quot;http://abcnews.go.com/blogs/headlines/2012/12/strict-gun-control-laws-in-south-korea/&quot;&gt;you won&#39;t get shot&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Aug 2013 16:29:24 -0400</pubDate>
+        <link>http://southerneer.com/south-korea.html</link>
+        <guid isPermaLink="true">http://southerneer.com/south-korea.html</guid>
+        
+        <category>band</category>
+        
+        <category>korea</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>Band Together</title>
+        <description>&lt;p&gt;I&#39;ve played drums since middle school but I&#39;d never taken it seriously until about a year ago. I did marching band through 10th grade and my parents bought me a beginner-level drumkit that I pounded on every once in a while. When I went off to college at UNC I couldn&#39;t easily bring the set with me into my dorm room...at least not at first. My kit actually lived in a buddy&#39;s dorm room during my senior year and I would go by to jam occasionally but that was still pretty far from &quot;serious&quot;.&lt;/p&gt;
+&lt;p&gt;After college my drum set would always make the move with me from rental houses in Chapel Hill (&lt;a href=&quot;https://maps.google.com/maps?q=bolinwood+Drive,+Chapel+Hill,+NC&amp;amp;hl=en&amp;amp;ll=35.925257,-79.050603&amp;amp;spn=0.001696,0.002486&amp;amp;sll=35.916738,-79.037243&amp;amp;sspn=0.006786,0.009946&amp;amp;hnear=Bolinwood+Dr,+Chapel+Hill,+Orange,+North+Carolina+27514&amp;amp;t=m&amp;amp;z=19&amp;amp;layer=c&amp;amp;cbll=35.925344,-79.050541&amp;amp;panoid=o9UKVKY2MJPhpo8E-bpiKw&amp;amp;cbp=13,252.33,,0,22.76&quot;&gt;Bolinwood&lt;/a&gt;, &lt;a href=&quot;https://maps.google.com/maps?q=125+Glendale+Drive,+Chapel+Hill,+NC&amp;amp;hl=en&amp;amp;ll=35.916469,-79.036632&amp;amp;spn=0.006751,0.009946&amp;amp;sll=35.916992,-79.037273&amp;amp;layer=c&amp;amp;cbp=13,334.73,,0,-0.02&amp;amp;cbll=35.916739,-79.037246&amp;amp;hnear=125+Glendale+Dr,+Chapel+Hill,+Orange,+North+Carolina+27514&amp;amp;t=m&amp;amp;z=17&amp;amp;panoid=L3da-l6yX9jozVhD_hplKw&quot;&gt;Glendale&lt;/a&gt;) to Raleigh (&lt;a href=&quot;https://maps.google.com/maps?q=Kaplan+Drive,+Raleigh,+NC&amp;amp;hl=en&amp;amp;ll=35.774348,-78.711446&amp;amp;spn=0.001691,0.002486&amp;amp;sll=35.925344,-79.050542&amp;amp;sspn=0.001696,0.002486&amp;amp;oq=kaplan+Drive,+&amp;amp;hnear=Kaplan+Dr,+Raleigh,+Wake,+North+Carolina+27606&amp;amp;t=m&amp;amp;z=19&amp;amp;layer=c&amp;amp;cbll=35.774263,-78.711495&amp;amp;panoid=6GMwcP5yj4sMRGESo1Uepg&amp;amp;cbp=13,99.78,,0,2.87&quot;&gt;Kaplan&lt;/a&gt;, &lt;a href=&quot;https://maps.google.com/maps?q=Raleigh,+NC&amp;amp;hl=en&amp;amp;ll=35.805609,-78.645327&amp;amp;spn=0.00169,0.002486&amp;amp;sll=35.774263,-78.711494&amp;amp;sspn=0.0017,0.002486&amp;amp;hnear=Raleigh,+Wake,+North+Carolina&amp;amp;t=m&amp;amp;z=19&amp;amp;layer=c&amp;amp;cbll=35.805685,-78.64527&amp;amp;panoid=3a94Vzl6u21m5RG1BLAbXg&amp;amp;cbp=13,96.64,,0,3.62&quot;&gt;White Oak)&lt;/a&gt; annoying many a roommate along the way. When I finally migrated back to Charlotte I started jamming with my friend Jason Rome. He introduced me to other musicians in the area and we would get together every couple of weeks to jam. I still wasn&#39;t practicing on a regular basis at this point, but the interaction with other musicians definitely heightened my interest in improving and growing as a drummer.&lt;/p&gt;
+&lt;p&gt;Last year (2012), Jason joined &lt;a href=&quot;http://www.trialbyfirejourney.net/&quot;&gt;Trial by Fire&lt;/a&gt;, a local Journey tribute band, as their new keyboard player and backup vocalist. This was a legit band that played at places like &lt;a href=&quot;http://www.amossouthend.com/&quot;&gt;Amos&#39; Southend&lt;/a&gt; and &lt;a href=&quot;http://fillmorecharlottenc.com/&quot;&gt;The Fillmore&lt;/a&gt; -- large local venues. I was really happy for him, dropped him a pound, and didn&#39;t think too much more of it. That was the spring of 2012 when I didn&#39;t have a whole lot going on...I was still recovering from my second shoulder surgery so all the athletic activities that used to take up a large part of my extracurricular time were now out of the question. Back in 2011 I bought an electronic drumset that would allow me to practice in my downtown Charlotte condo without annoying the piss out of my neighbors. I started to practicing regularly and more methodically. Having an electronic kit had the added benefit of being much more portable and allowed me to  jam with other musicians much more easily. Later in 2012, Jason approached me about trying out for Trial by Fire as they were seeking a new drummer. I thought &quot;what the hell&quot;, tried out and made it! I&#39;ve never been a huge Journey fan per se, but I really started to appreciate their music a lot more as I started learning up on the songs. Also, I gained a new appreciation for musicians who perform live. There are many aspects of putting on a show (sound, lighting, equipment, transportation, stage presence) that I&#39;d never properly considered before I was actually up there.&lt;/p&gt;
+&lt;p&gt;Flash forward to the present. I&#39;m still a member of Trial by Fire, but I&#39;m transitioning out of the band to move on to other ventures (more on that later). In the meantime, I&#39;m playing with a more traditional cover band, &lt;a title=&quot;Five on Sundays homepage&quot; href=&quot;www.fiveonsundays.com&quot;&gt;Five on Sundays&lt;/a&gt;, that is just getting off the ground. This is another Jason Rome joint (do you sense a theme here?) that also features a number of other guys (Zak Foltz and Mark Miller) with whom I had previously jammed since moving to Charlotte. We&#39;ve played two shows and we&#39;re looking forward to a few more in the next couple months.&lt;/p&gt;
+&lt;p&gt;The moral of this ramble? I don&#39;t know. I&#39;ve been messing around with my various websites lately and felt like putting up some fresh content. So sue me.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Jun 2013 20:50:56 -0400</pubDate>
+        <link>http://southerneer.com/band-together.html</link>
+        <guid isPermaLink="true">http://southerneer.com/band-together.html</guid>
+        
+        <category>band</category>
+        
+        
+        <category>music</category>
+        
+      </item>
+    
+      <item>
+        <title>Swim Hacking</title>
+        <description>&lt;p&gt;Since recovering from shoulder surgery I&#39;ve been seeking out ways to stay active without running the risk of re-injuring myself. I started out running with the occasional 5k road race to keep the competitive juices flowing. The other day a couple of my friends convinced me to race the &lt;a href=&quot;http://www.setupevents.com/?fuseaction=event_detail&amp;amp;eventID=2002&quot;&gt;Lake Norman YMCA Triathlon&lt;/a&gt; with them. I&#39;ve done one before, so I can probably do it again, no big deal...right?&lt;/p&gt;
+&lt;p&gt;Well, I&#39;m a pretty terrible swimmer and I haven&#39;t swam more than one lap in 5 years. Even when I was training for the previous triathlon I never got completely comfortable with the psychology and timing of breathing on a schedule. Also, I neglected to prepare for one crucial difference of swimming in a race: open water swimming. Namely, open water swimming with lots of other dudes jostling and kicking you.&lt;/p&gt;
+&lt;p&gt;The race is less than a month away, but I&#39;m determined to make a better showing of the swimming leg this go around. It&#39;s a sprint triathlon which &quot;only&quot; requires a 750 meter swim which equates to 15 laps (down and back) in my local gym&#39;s pool. Last week I joined JB and Whit (said friends) for my reintroduction to swimming and it was a rude one. I couldn&#39;t get more than 2 laps without succumbing to erratic breathing, loss of form, and general panic.&lt;/p&gt;
+&lt;p&gt;I needed a plan. Incidentally, I&#39;d been reading &lt;a href=&quot;http://www.amazon.com/The-4-Hour-Body-Incredible-Superhuman/dp/030746363X/ref=sr_1_1?ie=UTF8&amp;amp;qid=1343617802&amp;amp;sr=8-1&amp;amp;keywords=4+hour+body&quot;&gt;The 4 Hour Body&lt;/a&gt; and happened upon the chapter devoted to swimming. On the author&#39;s (Tim Ferriss) recommendation, I checked out a few videos from the Total Immersion swimming school.&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube-nocookie.com/embed/rJpFVvho0o4?rel=0&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;360&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;http://www.youtube-nocookie.com/embed/hC8ZZZhabp4?rel=0&quot; frameborder=&quot;0&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Now I have something to shoot for in my own training. Videos of my first attempts at recreating the efficient TI freestyle stroke to follow...&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Jul 2012 03:16:14 -0400</pubDate>
+        <link>http://southerneer.com/swim-hacking.html</link>
+        <guid isPermaLink="true">http://southerneer.com/swim-hacking.html</guid>
+        
+        
+        <category>lifehacking</category>
+        
+      </item>
+    
+      <item>
+        <title>Cookout - The Ultimate Black Box</title>
+        <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For those of you not from the South (Tennessee, Virginia, NC, and SC in particular), Cookout is a delicious fast food restaurant that is also super cheap. They serve 50 different milk shake flavors. They have BBQ sandwiches. If you thought McDonald&#39;s yielded the maximum calories/dollars ratio then think again. You can get a Cookout Tray for $4.39 which might include a Double Burger, a giant iced tea, and 2 corn dogs...because corn dogs are side items. The nutrition facts are &lt;a href=&quot;http://www.cookoutnc.com/index.php?action=nutrition&quot;&gt;still pending&lt;/a&gt;, but I think you can do the math. It&#39;s fast, it&#39;s cheap, and it&#39;s tasty.&lt;/p&gt;
+&lt;p&gt;Apart from some unusual food choices, Cookout sets itself apart from its competition by not having indoor seating. Some don&#39;t even have outdoor seating, just a walk-up window and two parallel drive-thru lanes. Which means that the entire structure of the restaurant is devoted to cooking food. And since every Cookout I&#39;ve ever seen is surrounded by either reflective or tinted glass, you can&#39;t actually &lt;em&gt;see&lt;/em&gt; where the food is being prepared.&lt;/p&gt;
+&lt;p&gt;This brings me to the original point of this post. Being a software developer I noted that each Cookout restaurant is a perfect &quot;black box&quot;. It abstracts away the notion of preparing food. All the customer knows is that they feed input to the cashier (the order and the money) and after a short delay the cashier delivers output (food, drink, and a receipt). Judging by the smoke rolling out of the chimney I would assume that inside there&#39;s a giant grill inside manned by a cook furiously flipping burgers. But maybe there&#39;s just the end of a tube connected to a central food factory in China. Or a magical burger genie who conjures fully cooked chicken nuggets out of thin air. Or Emeril Lagasse barking orders to his white-apron-clad underlings to finish up the latest order.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t really matter &lt;em&gt;how&lt;/em&gt; my input yields the correct output. I don&#39;t need to know how the meal was prepared (and in fact I probably don&#39;t want to know). Similarly, a well-written class will expose only the properties and methods required to fulfill its purpose while hiding away the details. Newbie developers can take a lesson from Cookout: keep the inner workings of your class behind reflective glass. We don&#39;t want to know how the sausage is made.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jun 2012 03:37:48 -0400</pubDate>
+        <link>http://southerneer.com/cookout-the-ultimate-black-box.html</link>
+        <guid isPermaLink="true">http://southerneer.com/cookout-the-ultimate-black-box.html</guid>
+        
+        <category>abstraction</category>
+        
+        <category>OOP</category>
+        
+        
+        <category>coding</category>
+        
+      </item>
+    
+  </channel>
+</rss>
