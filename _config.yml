@@ -16,3 +16,8 @@ markdown: kramdown
 permalink: /:title.html
 
 destination: website
+
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-28630641-1'
