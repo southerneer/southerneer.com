@@ -2,18 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18027",
 "files": {
-	"\/_drafts\/first.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_drafts\/first.md",
-		"outputAbbreviatedPath": "\/_drafts\/first.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_includes\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -82,15 +70,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_layouts\/post_old.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_pages\/2013-08-17-about.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_pages\/2013-08-17-about.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -359,18 +338,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/about.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about.md",
-		"outputAbbreviatedPath": "\/about.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/2013-12-18-09.23.28.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -433,6 +400,17 @@
 		"initialSize": 146813,
 		"inputAbbreviatedPath": "\/assets\/head3_bw.png",
 		"outputAbbreviatedPath": "\/assets\/head3_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/jekyll.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 417534,
+		"inputAbbreviatedPath": "\/assets\/jekyll.jpg",
+		"outputAbbreviatedPath": "\/assets\/jekyll.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -547,6 +525,160 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/website\/assets\/2013-12-18-09.23.28.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 743195,
+		"inputAbbreviatedPath": "\/website\/assets\/2013-12-18-09.23.28.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/2013-12-18-09.23.28.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/3easia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42266,
+		"inputAbbreviatedPath": "\/website\/assets\/3easia.png",
+		"outputAbbreviatedPath": "\/website\/assets\/3easia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/3japan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41906,
+		"inputAbbreviatedPath": "\/website\/assets\/3japan.png",
+		"outputAbbreviatedPath": "\/website\/assets\/3japan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/CodeComplete2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42767,
+		"inputAbbreviatedPath": "\/website\/assets\/CodeComplete2.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/CodeComplete2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/EK-1024x1024.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105161,
+		"inputAbbreviatedPath": "\/website\/assets\/EK-1024x1024.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/EK-1024x1024.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/head3_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146813,
+		"inputAbbreviatedPath": "\/website\/assets\/head3_bw.png",
+		"outputAbbreviatedPath": "\/website\/assets\/head3_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/jekyll.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 417534,
+		"inputAbbreviatedPath": "\/website\/assets\/jekyll.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/jekyll.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/kobe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46194,
+		"inputAbbreviatedPath": "\/website\/assets\/kobe.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/kobe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/mak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37310,
+		"inputAbbreviatedPath": "\/website\/assets\/mak.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/mak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/ou_example.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28254,
+		"inputAbbreviatedPath": "\/website\/assets\/ou_example.png",
+		"outputAbbreviatedPath": "\/website\/assets\/ou_example.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/Screen-Shot-2014-07-09-at-11.33.35-AM.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12803,
+		"inputAbbreviatedPath": "\/website\/assets\/Screen-Shot-2014-07-09-at-11.33.35-AM.png",
+		"outputAbbreviatedPath": "\/website\/assets\/Screen-Shot-2014-07-09-at-11.33.35-AM.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/seoul.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 542604,
+		"inputAbbreviatedPath": "\/website\/assets\/seoul.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/seoul.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/thickbox-easia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19289,
+		"inputAbbreviatedPath": "\/website\/assets\/thickbox-easia.png",
+		"outputAbbreviatedPath": "\/website\/assets\/thickbox-easia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/thickbox-japan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19900,
+		"inputAbbreviatedPath": "\/website\/assets\/thickbox-japan.png",
+		"outputAbbreviatedPath": "\/website\/assets\/thickbox-japan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/website\/azure-websites-in-seoul.html": {
 		"fileType": 8192,
