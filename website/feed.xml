@@ -6,9 +6,63 @@
 </description>
     <link>http://southerneer.com/</link>
     <atom:link href="http://southerneer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Nov 2014 13:34:39 -0500</pubDate>
-    <lastBuildDate>Sat, 08 Nov 2014 13:34:39 -0500</lastBuildDate>
+    <pubDate>Tue, 11 Nov 2014 12:01:05 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Nov 2014 12:01:05 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Syllabus</title>
+        <description>&lt;p&gt;Enough of the self-loathing of that &lt;a href=&quot;/a-confession.html&quot;&gt;last post&lt;/a&gt;. I’m smart and I’ve got plenty of time on my hands and there has never been a better time to teach yourself all kinds of web development techniques. Since leaving the humdrum corporate .NET dev world a little over a year ago I’ve just sort of stumbled from one technology to the other learning just enough to smash together a project in the time alotted. All the front-end stuff like HTML, CSS, and Javascript with its various popular libraries I was already fairly comfortable with, but the backend was another story. Mostly I cobbled together a mess of PHP and MySql. Rewriting already horribly written Wordpress themes certainly didn’t help in the learning process…in fact it probably hindered it.&lt;/p&gt;
+
+&lt;p&gt;I persisted, nonetheless, with PHP and MySql and using the &lt;a href=&quot;https://ellislab.com/codeigniter&quot;&gt;CodeIgniter&lt;/a&gt; (whoa! ownership got transferred again!) framework I built out the first version of the &lt;a href=&quot;http://overundergame.com&quot;&gt;Over Under game&lt;/a&gt;. While CodeIgniter did simplify a lot of common functionality like user registration, form handling, and routing, I always had the nagging feeling that it could be better. I found myself spending a lot of time digging deep into MySql (definitely not my strong suit) to wrest my data from the database. And while understanding how your data fits together and how to store it both logically and efficiently is important, I felt like I got way too bogged down in the details which prevented me from actually making progress on my grand idea.&lt;/p&gt;
+
+&lt;p&gt;I’m certainly not the only developer who has felt this pain. &lt;a href=&quot;http://en.wikipedia.org/wiki/Database_normalization&quot;&gt;Database normalization&lt;/a&gt; is all well and good, but sometimes I just want to store and retrieve data and that’s it…good great Grand WONDERFUL!&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/r0f1Aqk1XHI?start=6&amp;amp;end=13&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;To that end, I’m devoting the next couple months to learning &lt;a href=&quot;http://en.wikipedia.org/wiki/NoSQL&quot;&gt;NoSql&lt;/a&gt; concepts in the form of &lt;a href=&quot;http://www.mongodb.org/&quot;&gt;MongoDB&lt;/a&gt;. From what I hear this takes away the pain of restructuring your carefully thought out data models for “proper” normalized storage.&lt;/p&gt;
+
+&lt;p&gt;So I could definitely learn up on MongoDB and use PHP to do the backend logic, but while I’m at it, I might as well go all the way and learn a new backend language. &lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt; is what all the cool kids are using these days and I want to be cool. It’s got a huge following which brings along with it lots of community support and, perhaps more importantly, there are lots of free tutorials out there for getting up to speed quickly. And then there’s the dense, comprehensive, end-all be-all of Ruby development, the Ruby bible: &lt;a href=&quot;http://www.amazon.com/gp/product/1937785491/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1937785491&amp;amp;linkCode=as2&amp;amp;tag=southerneer-20&amp;amp;linkId=VSCPCPFRAIKUYDPO&quot;&gt;the Pickaxe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ruby3-small.jpg&quot; style=&quot;display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So I’m going to learn a totally new database paradigm AND a totally new language and framework. That sounds a bit daunting and I’ve been dragging my feet over the last few days because I keep thinking that it’ll take forever. But if I break it down it doesn’t sound so bad at all. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 1: November 11 - 15&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read and run through example code of part 1 of the Pickaxe: Facets of Ruby&lt;/li&gt;
+  &lt;li&gt;Start running through the &lt;a href=&quot;http://try.mongodb.org/&quot;&gt;MongoDB trial site&lt;/a&gt;. I have no idea how comprehensive the tutorial is so I’ll just say “start” for now and update as I go along&lt;/li&gt;
+  &lt;li&gt;Get the basic example program from the &lt;a href=&quot;http://guides.rubyonrails.org/getting_started.html&quot;&gt;Ruby on Rails guide&lt;/a&gt; up and running. I’m already at step 5 from a few weeks back so basically I’ll just be revisiting this and refreshing my mind on what I learned.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week 2: November 16-22&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read part 2 of the Pickaxe: Ruby In Its Setting&lt;/li&gt;
+  &lt;li&gt;Complete the MongoDB tutorial and set up an instance on my laptop.&lt;/li&gt;
+  &lt;li&gt;Take a look at the Over Under Game as it stands now and think through the structure of the data through the lens of NoSQL. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Week3: November 23-29&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read part 3 of the Pickaxe: Ruby Crystallized&lt;/li&gt;
+  &lt;li&gt;Finish mapping out Over Under data structures and begin implementing them in a rewrite using Ruby on Rails&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have no idea how much time will need to be devoted to each task throughout the 3 weeks, but I’ll keep track of my progress and update with future posts so that someone else hoping to approach a similar challenge &lt;em&gt;will&lt;/em&gt; have a good idea of how much time and effort is involved.&lt;/p&gt;
+
+&lt;p&gt;Bonus: in the course of “researching” for this post I stumbled across the Hot Tub Time Machine 2 trailer. Be forewarned, this trailer is NSFW, but the improvised (?) nerd song is a dose of pure genius.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/nWa4INxk4y4?start=168&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Tue, 11 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://southerneer.com/syllabus.html</link>
+        <guid isPermaLink="true">http://southerneer.com/syllabus.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>A Confession</title>
@@ -210,25 +264,6 @@ If you didn&#39;t already know, I&#39;m moving to South Korea! I&#39;ll be shipp
         
         
         <category>music</category>
-        
-      </item>
-    
-      <item>
-        <title>Swim Hacking</title>
-        <description>&lt;p&gt;Since recovering from shoulder surgery I&#39;ve been seeking out ways to stay active without running the risk of re-injuring myself. I started out running with the occasional 5k road race to keep the competitive juices flowing. The other day a couple of my friends convinced me to race the &lt;a href=&quot;http://www.setupevents.com/?fuseaction=event_detail&amp;amp;eventID=2002&quot;&gt;Lake Norman YMCA Triathlon&lt;/a&gt; with them. I&#39;ve done one before, so I can probably do it again, no big deal...right?&lt;/p&gt;
-&lt;p&gt;Well, I&#39;m a pretty terrible swimmer and I haven&#39;t swam more than one lap in 5 years. Even when I was training for the previous triathlon I never got completely comfortable with the psychology and timing of breathing on a schedule. Also, I neglected to prepare for one crucial difference of swimming in a race: open water swimming. Namely, open water swimming with lots of other dudes jostling and kicking you.&lt;/p&gt;
-&lt;p&gt;The race is less than a month away, but I&#39;m determined to make a better showing of the swimming leg this go around. It&#39;s a sprint triathlon which &quot;only&quot; requires a 750 meter swim which equates to 15 laps (down and back) in my local gym&#39;s pool. Last week I joined JB and Whit (said friends) for my reintroduction to swimming and it was a rude one. I couldn&#39;t get more than 2 laps without succumbing to erratic breathing, loss of form, and general panic.&lt;/p&gt;
-&lt;p&gt;I needed a plan. Incidentally, I&#39;d been reading &lt;a href=&quot;http://www.amazon.com/The-4-Hour-Body-Incredible-Superhuman/dp/030746363X/ref=sr_1_1?ie=UTF8&amp;amp;qid=1343617802&amp;amp;sr=8-1&amp;amp;keywords=4+hour+body&quot;&gt;The 4 Hour Body&lt;/a&gt; and happened upon the chapter devoted to swimming. On the author&#39;s (Tim Ferriss) recommendation, I checked out a few videos from the Total Immersion swimming school.&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&quot;http://www.youtube-nocookie.com/embed/rJpFVvho0o4?rel=0&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;360&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&quot;http://www.youtube-nocookie.com/embed/hC8ZZZhabp4?rel=0&quot; frameborder=&quot;0&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Now I have something to shoot for in my own training. Videos of my first attempts at recreating the efficient TI freestyle stroke to follow...&lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 Jul 2012 03:16:14 -0400</pubDate>
-        <link>http://southerneer.com/swim-hacking.html</link>
-        <guid isPermaLink="true">http://southerneer.com/swim-hacking.html</guid>
-        
-        
-        <category>lifehacking</category>
         
       </item>
     
