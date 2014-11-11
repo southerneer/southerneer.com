@@ -1,0 +1,47 @@
+---
+layout: post
+title: Syllabus
+date: 2014-11-11
+type: post
+published: true
+---
+
+Enough of the self-loathing of that [last post]({% post_url 2014-11-08-a-confession %}). I'm smart and I've got plenty of time on my hands and there has never been a better time to teach yourself all kinds of web development techniques. Since leaving the humdrum corporate .NET dev world a little over a year ago I've just sort of stumbled from one technology to the other learning just enough to smash together a project in the time alotted. All the front-end stuff like HTML, CSS, and Javascript with its various popular libraries I was already fairly comfortable with, but the backend was another story. Mostly I cobbled together a mess of PHP and MySql. Rewriting already horribly written Wordpress themes certainly didn't help in the learning process...in fact it probably hindered it.
+
+I persisted, nonetheless, with PHP and MySql and using the [CodeIgniter](https://ellislab.com/codeigniter) (whoa! ownership got transferred again!) framework I built out the first version of the [Over Under game](http://overundergame.com). While CodeIgniter did simplify a lot of common functionality like user registration, form handling, and routing, I always had the nagging feeling that it could be better. I found myself spending a lot of time digging deep into MySql (definitely not my strong suit) to wrest my data from the database. And while understanding how your data fits together and how to store it both logically and efficiently is important, I felt like I got way too bogged down in the details which prevented me from actually making progress on my grand idea.
+
+I'm certainly not the only developer who has felt this pain. [Database normalization](http://en.wikipedia.org/wiki/Database_normalization) is all well and good, but sometimes I just want to store and retrieve data and that's it...good great Grand WONDERFUL!
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/r0f1Aqk1XHI?start=6&end=13" frameborder="0" allowfullscreen></iframe>
+
+To that end, I'm devoting the next couple months to learning [NoSql](http://en.wikipedia.org/wiki/NoSQL) concepts in the form of [MongoDB](http://www.mongodb.org/). From what I hear this takes away the pain of restructuring your carefully thought out data models for "proper" normalized storage.
+
+So I could definitely learn up on MongoDB and use PHP to do the backend logic, but while I'm at it, I might as well go all the way and learn a new backend language. [Ruby on Rails](http://rubyonrails.org/) is what all the cool kids are using these days and I want to be cool. It's got a huge following which brings along with it lots of community support and, perhaps more importantly, there are lots of free tutorials out there for getting up to speed quickly. And then there's the dense, comprehensive, end-all be-all of Ruby development, the Ruby bible: [the Pickaxe](http://www.amazon.com/gp/product/1937785491/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1937785491&linkCode=as2&tag=southerneer-20&linkId=VSCPCPFRAIKUYDPO).
+
+<img src='/assets/ruby3-small.jpg' style='display:block; margin: 0 auto;' />
+
+So I'm going to learn a totally new database paradigm AND a totally new language and framework. That sounds a bit daunting and I've been dragging my feet over the last few days because I keep thinking that it'll take forever. But if I break it down it doesn't sound so bad at all. 
+
+**Week 1: November 11 - 15**
+
+* Read and run through example code of part 1 of the Pickaxe: Facets of Ruby
+* Start running through the [MongoDB trial site](http://try.mongodb.org/). I have no idea how comprehensive the tutorial is so I'll just say "start" for now and update as I go along
+* Get the basic example program from the [Ruby on Rails guide](http://guides.rubyonrails.org/getting_started.html) up and running. I'm already at step 5 from a few weeks back so basically I'll just be revisiting this and refreshing my mind on what I learned.
+
+**Week 2: November 16-22**
+
+- Read part 2 of the Pickaxe: Ruby In Its Setting
+- Complete the MongoDB tutorial and set up an instance on my laptop.
+- Take a look at the Over Under Game as it stands now and think through the structure of the data through the lens of NoSQL. 
+
+**Week3: November 23-29**
+
+* Read part 3 of the Pickaxe: Ruby Crystallized
+* Finish mapping out Over Under data structures and begin implementing them in a rewrite using Ruby on Rails
+
+
+
+
+Bonus: in the course of "researching" for this post I stumbled across the Hot Tub Time Machine 2 trailer. Be forewarned, this trailer is NSFW, but the improvised (?) nerd song is a dose of pure genius.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/nWa4INxk4y4?start=168" frameborder="0" allowfullscreen></iframe>
