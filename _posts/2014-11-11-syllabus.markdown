@@ -12,7 +12,9 @@ I persisted, nonetheless, with PHP and MySql and using the [CodeIgniter](https:/
 
 I'm certainly not the only developer who has felt this pain. [Database normalization](http://en.wikipedia.org/wiki/Database_normalization) is all well and good, but sometimes I just want to store and retrieve data and that's it...good great Grand WONDERFUL!
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/r0f1Aqk1XHI?start=6&end=13" frameborder="0" allowfullscreen></iframe>
+<div class='vidContainer'>
+	<iframe width="640" height="360" src="//www.youtube.com/embed/r0f1Aqk1XHI?start=6&end=13" frameborder="0" allowfullscreen></iframe>
+</div>
 
 To that end, I'm devoting the next couple months to learning [NoSql](http://en.wikipedia.org/wiki/NoSQL) concepts in the form of [MongoDB](http://www.mongodb.org/). From what I hear this takes away the pain of restructuring your carefully thought out data models for "proper" normalized storage.
 
@@ -43,4 +45,14 @@ I have no idea how much time will need to be devoted to each task throughout the
 
 Bonus: in the course of "researching" for this post I stumbled across the Hot Tub Time Machine 2 trailer. Be forewarned, this trailer is NSFW, but the improvised (?) nerd song is a dose of pure genius.
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/nWa4INxk4y4?start=168" frameborder="0" allowfullscreen></iframe>
+<div class='vidContainer'>
+	<iframe width="560" height="315" src="//www.youtube.com/embed/nWa4INxk4y4?start=168" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<script src='//code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js'></script>
+<script>
+	$(function() {
+		$('.vidContainer').fitVids();
+	});
+</script>
