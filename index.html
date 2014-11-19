@@ -4,20 +4,12 @@ layout: home
 
 <div class="home">
 
-  <h1 class="page-heading">I have some things to say</h1>
+  <!-- <h1 class="page-heading"></h1> -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+  <h2>Current Projects</h2>
+  <ul>
+    <li><a href='http://overunderga.me'>The Over/Under Game</a></li>
+    <li><a href='/blog/'>This Blog</a></li>
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

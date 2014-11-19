@@ -9,14 +9,81 @@
 
     <style>
       .subheader {
-        height:300px;
-        background: url('/assets/mak.jpg') no-repeat center;
+        min-height:300px;
+        background: url('/assets/chatt_bg.jpg') no-repeat center;
         background-size: cover;
+        position: relative;
       }
+      .subheader .overlay {
+        background-color: rgba(150, 100, 100, 0.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-animation: color_change 10s infinite alternate;
+        -moz-animation: color_change 4s infinite alternate;
+        -ms-animation: color_change 4s infinite alternate;
+        -o-animation: color_change 4s infinite alternate;
+        animation: color_change 4s infinite alternate;
+      }
+      @-webkit-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @-moz-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @-ms-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @-o-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      .subheader .overlay img {
+        float: left;
+        height: 280px;
+        margin-top: 10px;
+        margin-left: 40px;
+        width: auto;
+      }
+      .subheader .subheader-text {
+        margin-left: 380px;
+        font-size: 40px;
+        color: #FFFFFF;
+        margin-top: 60px;
+        font-weight: lighter;
+      }
+
     </style>
 
-    <div class='subheader'>
-
+    <div class="subheader">
+      <div class="overlay">
+        <img src='/assets/ek-round.png' />
+        <div class="subheader-text">
+          <p>/ˈsəT͟Hərnir/</p>
+          <p>
+            part <span style='font-weight:bold;'>Southern</span><span>er</span>, part Engin<span style='font-weight:bold;'>eer</span>.
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="page-content">

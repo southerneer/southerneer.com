@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+published: false
 ---
 
 What's a "Southerneer"? That's a combination of "southerner" and "engineer". You see, I was born and raised in North Carolina and I fiddle with websites and technology from time to time.

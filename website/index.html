@@ -38,9 +38,9 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/about/">About</a>
-          
         
+          
+          <a class="page-link" href="/blog/">Blog</a>
           
         
           
@@ -57,139 +57,94 @@
 
     <style>
       .subheader {
-        height:300px;
-        background: url('/assets/mak.jpg') no-repeat center;
+        min-height:300px;
+        background: url('/assets/chatt_bg.jpg') no-repeat center;
         background-size: cover;
+        position: relative;
       }
+      .subheader .overlay {
+        background-color: rgba(150, 100, 100, 0.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-animation: color_change 10s infinite alternate;
+        -moz-animation: color_change 4s infinite alternate;
+        -ms-animation: color_change 4s infinite alternate;
+        -o-animation: color_change 4s infinite alternate;
+        animation: color_change 4s infinite alternate;
+      }
+      @-webkit-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @-moz-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @-ms-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @-o-keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      @keyframes color_change {
+        0% { background-color: rgba(100, 100, 100, 0.8); }
+        33% { background-color: rgba(150, 100, 100, 0.8); }
+        66% { background-color: rgba(100, 150, 100, 0.8); }
+        100% { background-color: rgba(100, 100, 150, 0.8); }
+      }
+      .subheader .overlay img {
+        float: left;
+        height: 280px;
+        margin-top: 10px;
+        margin-left: 40px;
+        width: auto;
+      }
+      .subheader .subheader-text {
+        margin-left: 380px;
+        font-size: 40px;
+        color: #FFFFFF;
+        margin-top: 60px;
+        font-weight: lighter;
+      }
+
     </style>
 
-    <div class='subheader'>
-
+    <div class="subheader">
+      <div class="overlay">
+        <img src='/assets/ek-round.png' />
+        <div class="subheader-text">
+          <p>/ˈsəT͟Hərnir/</p>
+          <p>
+            part <span style='font-weight:bold;'>Southern</span><span>er</span>, part Engin<span style='font-weight:bold;'>eer</span>.
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="page-content">
       <div class="wrapper">
         <div class="home">
 
-  <h1 class="page-heading">I have some things to say</h1>
+  <!-- <h1 class="page-heading"></h1> -->
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 11, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/syllabus.html">Syllabus</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 8, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/a-confession.html">A Confession</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 5, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/this-jekyll-thing.html">This Jekyll Thing</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 23, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/talking-normal-people.html">Talking to normal people</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 10, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/currently-active-deactivate.html">Currently active and you can not deactivate it</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 29, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/azure-websites-in-seoul.html">Azure websites in Seoul</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 21, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/the-slow-bleed.html">The Slow Bleed</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 13, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/basketball-in-korea.html">Basketball in Korea</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 17, 2013</span>
-
-        <h2>
-          <a class="post-link" href="/south-korea.html">South Korea</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 6, 2013</span>
-
-        <h2>
-          <a class="post-link" href="/band-together.html">Band Together</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 30, 2012</span>
-
-        <h2>
-          <a class="post-link" href="/swim-hacking.html">Swim Hacking</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 11, 2012</span>
-
-        <h2>
-          <a class="post-link" href="/cookout-the-ultimate-black-box.html">Cookout - The Ultimate Black Box</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 20, 2012</span>
-
-        <h2>
-          <a class="post-link" href="/fantasy-bball.html">Fantasy Bball</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 24, 2012</span>
-
-        <h2>
-          <a class="post-link" href="/managing-complexity.html">Managing Complexity</a>
-        </h2>
-      </li>
-    
+  <h2>Current Projects</h2>
+  <ul>
+    <li><a href='http://overunderga.me'>The Over/Under Game</a></li>
+    <li><a href='/blog/'>This Blog</a></li>
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
 </div>
       </div>
