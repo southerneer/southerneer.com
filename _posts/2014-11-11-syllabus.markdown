@@ -4,6 +4,7 @@ title: Syllabus
 date: 2014-11-11
 type: post
 published: true
+comments: true
 ---
 
 Enough of the self-loathing of that [last post]({% post_url 2014-11-08-a-confession %}). I'm smart and I've got plenty of time on my hands and there has never been a better time to teach yourself all kinds of web development techniques. Since leaving the humdrum corporate .NET dev world a little over a year ago I've just sort of stumbled from one technology to the other learning just enough to smash together a project in the time alotted. All the front-end stuff like HTML, CSS, and Javascript with its various popular libraries I was already fairly comfortable with, but the backend was another story. Mostly I cobbled together a mess of PHP and MySql. Rewriting already horribly written Wordpress themes certainly didn't help in the learning process...in fact it probably hindered it.

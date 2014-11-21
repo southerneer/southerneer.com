@@ -3,6 +3,7 @@ layout: post
 title:  "This Jekyll Thing"
 date:   2014-11-05 10:03
 published: true
+comments: true
 ---
 For the past year I have been engaged in a tumultuous relationship with Wordpress. It all started when I left my comfortable job as a Microsoft consultant in Charlotte to join my friend's startup company [Redwood](http://redwood-inc.com) in Seoul, South Korea. Up to that point I had never had to make too many important decisions on projects I'd worked on. Mostly I just bounced from office to office and worked off of whatever technology stack (.NET primarily) they were using at the time. Those were all mid-sized to large corporations where a significant amount of "technological inertia" was already in place and who was I to buck the trend? Well, in my new job the slate was clean and I was responsible for setting the trend.
 

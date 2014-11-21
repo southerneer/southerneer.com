@@ -6,8 +6,8 @@
 </description>
     <link>http://southerneer.com/</link>
     <atom:link href="http://southerneer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 21 Nov 2014 09:55:59 -0500</pubDate>
-    <lastBuildDate>Fri, 21 Nov 2014 09:55:59 -0500</lastBuildDate>
+    <pubDate>Fri, 21 Nov 2014 10:40:21 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Nov 2014 10:40:21 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -143,6 +143,17 @@
       </item>
     
       <item>
+        <title>Wrangling Wordpress Cloud</title>
+        <description>&lt;p&gt;Wordpress is a fine tool for creating blog-based websites. It is a mature and popular platform which has the nice side benefit of lots of theme choices. Some themes have &quot;sophisticated&quot; configuration options that make it relatively easy for the average website user to customize the look and feel of the site. Just click a few buttons and slide a few sliders and you can make some pretty cool changes to a base theme. The nasty side of all these clever options is that they add a lot of overhead to the site&#39;s download footprint. I have had the unpleasant experience of my coworkers using these themes to get 95% of what they want in a website design and asking me to tweak the code to get the last 5% of what they want. This creates a huge headache.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://southerneer.com/wrangling-wordpress-cloud.html</link>
+        <guid isPermaLink="true">http://southerneer.com/wrangling-wordpress-cloud.html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Talking to normal people</title>
         <description>&lt;p&gt;I&#39;m an engineer by profession. And for better or worse, I&#39;m an engineer by train of thought. In particular, I have a very specific notion of &quot;truth&quot; and &quot;correct&quot;. I don&#39;t like to claim that I know how something works without having tested it myself or at least having it explained thoroughly by someone who has.&lt;/p&gt;
 &lt;p&gt;Let&#39;s say I&#39;m working on a web page and I need to add a button to pop up a message to the user. Simple. This is a common piece of functionality that I&#39;ve implemented a million times previously and I could write that code in my sleep. But if I were to do it right now I would still test it. I would have to. Because if you&#39;re a software engineer and you don&#39;t test your work then your work will suck. I prefer that my work not suck so I make sure that every little thing functions correctly before moving on.&lt;/p&gt;
@@ -163,6 +174,22 @@ Me: &quot;I&#39;m just sayin...but thanks for the tip and the general good vibes
         <category>coding</category>
         
         <category>psychology</category>
+        
+      </item>
+    
+      <item>
+        <title>Lone Engineer</title>
+        <description>&lt;p&gt;The only technology worker in a non-technology company&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;They can&#39;t properly appreciate your successes&lt;/li&gt;
+&lt;li&gt;They only pay attention when you fail&lt;/li&gt;
+&lt;li&gt;You can&#39;t explain your failures&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 23 Jul 2014 00:00:00 -0400</pubDate>
+        <link>http://southerneer.com/lone-engineer.html</link>
+        <guid isPermaLink="true">http://southerneer.com/lone-engineer.html</guid>
+        
         
       </item>
     

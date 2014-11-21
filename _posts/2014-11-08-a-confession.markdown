@@ -4,6 +4,7 @@ title: A Confession
 date: 2014-11-08
 type: post
 published: true
+comments: true
 ---
 
 I'm a hack. Not a hacker...a hack. I'm not particularly good or experienced at software development and this is my professed career. I have spent a lot of time doing that job (the past 9 years) but never in a very determined or focus way. I've claimed the job title of "consultant" and in that I was decent and successful because I'm smart and courteous and I could communicate effectively with normal people (the business) and the nerds (the developers). This is a valuable skill in its own right, but even in that job I claimed to be and at times thought I actually was a developer or software engineer.

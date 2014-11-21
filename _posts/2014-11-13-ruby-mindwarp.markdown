@@ -4,6 +4,7 @@ title: Ruby Mindwarp
 date: 2014-11-13
 type: post
 published: false
+comments: true
 ---
 
 I may have been a bit too ambitious with the schedule in my [last post]({% post_url 2014-11-11-syllabus %}). It's been a while since the last time I devoted meaningful time and effort into learning a brand new programming language and I forgot just how difficult it is. There are commonalities shared by virtually all modern programming languages (data structures, loops, functions, etc), but it's the peculiarities of each language that can take lots of time to get used to. Ruby is a scripting language which makes it very flexible and expressive (and thus popular) and it's taking a great deal of mental effort for me to bend my dusty C#-, Java-, and PHP-influenced mind to figure out Ruby. Heavy experience with Javascript is certainly, but code blocks like the following require marination:
