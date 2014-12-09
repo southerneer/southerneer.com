@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="http://southerneer.com/">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 </head>
 
 
@@ -60,6 +61,7 @@
         min-height:300px;
         background: url('/assets/chatt_bg.jpg') no-repeat center;
         background-size: cover;
+        background-attachment: fixed;
         position: relative;
       }
       .subheader .overlay {
@@ -107,29 +109,31 @@
       }
       .subheader .overlay img {
         float: left;
-        height: 280px;
+        height: 380px;
         margin-top: 10px;
         margin-left: 40px;
         width: auto;
       }
       .subheader .subheader-text {
-        margin-left: 380px;
+        margin: 0 40px;
+        text-align: center;
         font-size: 40px;
         color: #FFFFFF;
-        margin-top: 60px;
+        margin-top: 80px;
         font-weight: lighter;
       }
 
+      .form-error {
+        font-size: 20px;
+        color: #FF1975;
+      }
     </style>
 
     <div class="subheader">
       <div class="overlay">
-        <img src='/assets/ek-round.png' />
+        <!-- <img src='/assets/ek-round.png' /> -->
         <div class="subheader-text">
-          <p>/ˈsəT͟Hərnir/</p>
-          <p>
-            part <span style='font-weight:bold;'>Southern</span><span>er</span>, part Engin<span style='font-weight:bold;'>eer</span>.
-          </p>
+          <p>/ˈsəT͟Hərnir/ - a web technology company focused on building things that work.
         </div>
       </div>
     </div>
@@ -140,11 +144,48 @@
 
   <!-- <h1 class="page-heading"></h1> -->
 
-  <h2>Current Projects</h2>
+  <!-- <h2>Current Projects</h2>
   <ul>
     <li><a href='http://overunderga.me'>The Over/Under Game</a></li>
     <li><a href='/blog/'>This Blog</a></li>
-  </ul>
+  </ul> -->
+
+  <p style='font-size: 16px;'>
+    The web is a powerful information tool. For businesses big and small, it can provide a massive audience for your product, brand, or message. Wielded correctly, this tool will enable you to compete on a global scale and grow your business. This is where Southerneer fits in. We bring the power of the web to bear on your business problems. Just let us know how we can help you.
+  </p>
+
+  <form method="post" role="form" class="form-horizontal contact-form" style="margin-top: 40px;">
+    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+    <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+    <!-- all your input fields here.... -->
+    
+    <div class="form-group">
+      <label for="name" class="col-sm-2 control-label">Name</label>
+      <div class="col-sm-10">
+        <input type='text' name='name' class="form-control" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="email" class="col-sm-2 control-label">Email</label>
+      <div class="col-sm-10">
+        <input type='text' name='email' class="form-control" />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="message" class="col-sm-2 control-label">Message</label>
+      <div class="col-sm-10">
+        <textarea name='message' class="form-control" ></textarea>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+  </form>
 
 </div>
       </div>
@@ -216,6 +257,40 @@
   ga('create', 'UA-28630641-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
+<script>
+  $('form.contact-form').on('submit', function() {
+      $('.form-error').remove();
+
+      var validated = true;
+
+      //validation
+      $(this).find("input[type=text], input[type=email], textarea").each( function(index) {
+        if($(this).val() == '') {
+          $('form').prepend('<p class="form-error">Please fill in all fields. ;)</p>');
+          validated = false;
+          return false;
+        }
+      });
+
+      if( !validated ) return false;
+
+      $.ajax({
+          data: $(this).serialize(),
+          dataType: 'jsonp',
+          type: $(this).attr('method'),
+          url: 'https://getsimpleform.com/messages/ajax?form_api_token=0fbbe2615b633f2c158f18c39812ca3e'
+      })
+      .done(function() {
+        $('form.contact-form').replaceWith('<h2 style="text-align:center; margin-top:1em">Thanks for contacting us. We will get back to you shortly.</h2>');
+        $('form.contact-form').find("input[type=text], input[type=email], textarea").val("");
+      });
+
+      return false;
+    });
 </script>
 
   </body>

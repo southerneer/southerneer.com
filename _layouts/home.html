@@ -12,6 +12,7 @@
         min-height:300px;
         background: url('/assets/chatt_bg.jpg') no-repeat center;
         background-size: cover;
+        background-attachment: fixed;
         position: relative;
       }
       .subheader .overlay {
@@ -59,29 +60,31 @@
       }
       .subheader .overlay img {
         float: left;
-        height: 280px;
+        height: 380px;
         margin-top: 10px;
         margin-left: 40px;
         width: auto;
       }
       .subheader .subheader-text {
-        margin-left: 380px;
+        margin: 0 40px;
+        text-align: center;
         font-size: 40px;
         color: #FFFFFF;
-        margin-top: 60px;
+        margin-top: 80px;
         font-weight: lighter;
       }
 
+      .form-error {
+        font-size: 20px;
+        color: #FF1975;
+      }
     </style>
 
     <div class="subheader">
       <div class="overlay">
-        <img src='/assets/ek-round.png' />
+        <!-- <img src='/assets/ek-round.png' /> -->
         <div class="subheader-text">
-          <p>/ˈsəT͟Hərnir/</p>
-          <p>
-            part <span style='font-weight:bold;'>Southern</span><span>er</span>, part Engin<span style='font-weight:bold;'>eer</span>.
-          </p>
+          <p>/ˈsəT͟Hərnir/ - a web technology company focused on building things that work.
         </div>
       </div>
     </div>
