@@ -56,79 +56,6 @@
 </header>
 
 
-    <style>
-      .subheader {
-        min-height:300px;
-        background: url('/assets/chatt_bg.jpg') no-repeat center;
-        background-size: cover;
-        background-attachment: fixed;
-        position: relative;
-      }
-      .subheader .overlay {
-        background-color: rgba(150, 100, 100, 0.8);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        -webkit-animation: color_change 10s infinite alternate;
-        -moz-animation: color_change 4s infinite alternate;
-        -ms-animation: color_change 4s infinite alternate;
-        -o-animation: color_change 4s infinite alternate;
-        animation: color_change 4s infinite alternate;
-      }
-      @-webkit-keyframes color_change {
-        0% { background-color: rgba(100, 100, 100, 0.8); }
-        33% { background-color: rgba(150, 100, 100, 0.8); }
-        66% { background-color: rgba(100, 150, 100, 0.8); }
-        100% { background-color: rgba(100, 100, 150, 0.8); }
-      }
-      @-moz-keyframes color_change {
-        0% { background-color: rgba(100, 100, 100, 0.8); }
-        33% { background-color: rgba(150, 100, 100, 0.8); }
-        66% { background-color: rgba(100, 150, 100, 0.8); }
-        100% { background-color: rgba(100, 100, 150, 0.8); }
-      }
-      @-ms-keyframes color_change {
-        0% { background-color: rgba(100, 100, 100, 0.8); }
-        33% { background-color: rgba(150, 100, 100, 0.8); }
-        66% { background-color: rgba(100, 150, 100, 0.8); }
-        100% { background-color: rgba(100, 100, 150, 0.8); }
-      }
-      @-o-keyframes color_change {
-        0% { background-color: rgba(100, 100, 100, 0.8); }
-        33% { background-color: rgba(150, 100, 100, 0.8); }
-        66% { background-color: rgba(100, 150, 100, 0.8); }
-        100% { background-color: rgba(100, 100, 150, 0.8); }
-      }
-      @keyframes color_change {
-        0% { background-color: rgba(100, 100, 100, 0.8); }
-        33% { background-color: rgba(150, 100, 100, 0.8); }
-        66% { background-color: rgba(100, 150, 100, 0.8); }
-        100% { background-color: rgba(100, 100, 150, 0.8); }
-      }
-      .subheader .overlay img {
-        float: left;
-        height: 380px;
-        margin-top: 10px;
-        margin-left: 40px;
-        width: auto;
-      }
-      .subheader .subheader-text {
-        margin: 0 40px;
-        text-align: center;
-        font-size: 40px;
-        color: #FFFFFF;
-        margin-top: 80px;
-        font-weight: lighter;
-      }
-
-      .form-error {
-        font-size: 20px;
-        color: #FF1975;
-      }
-    </style>
-
     <div class="subheader">
       <div class="overlay">
         <!-- <img src='/assets/ek-round.png' /> -->
@@ -188,6 +115,40 @@
   </form>
 
 </div>
+
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
+<script>
+  $('form.contact-form').on('submit', function() {
+      $('.form-error').remove();
+
+      var validated = true;
+
+      //validation
+      $(this).find("input[type=text], input[type=email], textarea").each( function(index) {
+        if($(this).val() == '') {
+          $('form').prepend('<p class="form-error">Please fill in all fields. ;)</p>');
+          validated = false;
+          return false;
+        }
+      });
+
+      if( !validated ) return false;
+
+      $.ajax({
+          data: $(this).serialize(),
+          dataType: 'jsonp',
+          type: $(this).attr('method'),
+          url: 'https://getsimpleform.com/messages/ajax?form_api_token=0fbbe2615b633f2c158f18c39812ca3e'
+      })
+      .done(function() {
+        $('form.contact-form').replaceWith('<h2 style="text-align:center; margin-top:1em">Thanks for contacting us. We will get back to you shortly.</h2>');
+        $('form.contact-form').find("input[type=text], input[type=email], textarea").val("");
+      });
+
+      return false;
+    });
+</script>
       </div>
     </div>
 
@@ -257,40 +218,6 @@
   ga('create', 'UA-28630641-1', 'auto');
   ga('send', 'pageview');
 
-</script>
-
-<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
-<script type='text/javascript' src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
-<script>
-  $('form.contact-form').on('submit', function() {
-      $('.form-error').remove();
-
-      var validated = true;
-
-      //validation
-      $(this).find("input[type=text], input[type=email], textarea").each( function(index) {
-        if($(this).val() == '') {
-          $('form').prepend('<p class="form-error">Please fill in all fields. ;)</p>');
-          validated = false;
-          return false;
-        }
-      });
-
-      if( !validated ) return false;
-
-      $.ajax({
-          data: $(this).serialize(),
-          dataType: 'jsonp',
-          type: $(this).attr('method'),
-          url: 'https://getsimpleform.com/messages/ajax?form_api_token=0fbbe2615b633f2c158f18c39812ca3e'
-      })
-      .done(function() {
-        $('form.contact-form').replaceWith('<h2 style="text-align:center; margin-top:1em">Thanks for contacting us. We will get back to you shortly.</h2>');
-        $('form.contact-form').find("input[type=text], input[type=email], textarea").val("");
-      });
-
-      return false;
-    });
 </script>
 
   </body>
