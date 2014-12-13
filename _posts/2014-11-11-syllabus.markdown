@@ -49,11 +49,3 @@ Bonus: in the course of "researching" for this post I stumbled across the Hot Tu
 <div class='vidContainer'>
 	<iframe width="560" height="315" src="//www.youtube.com/embed/nWa4INxk4y4?start=168" frameborder="0" allowfullscreen></iframe>
 </div>
-
-<script src='//code.jquery.com/jquery-2.1.1.min.js'></script>
-<script src='//cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js'></script>
-<script>
-	$(function() {
-		$('.vidContainer').fitVids();
-	});
-</script>
