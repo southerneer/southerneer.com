@@ -7,6 +7,8 @@ published: true
 comments: true
 ---
 
+<img src='/assets/schrute.jpg' style='width:100%; height: auto;' alt='lonely office' />
+
 Friends,
 I have something to tell you. I started a business. It's called Southerneer. Like Southern + engineer. Yeah...sorry...it's just...yeah. Anyway, I've decided to transform this little side venture into my livelihood. As in if it's an abject failure I might cease to live. I think that's how that works.
 
