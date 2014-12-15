@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-That [syllabus]({% post_url 2014-11-11-syllabus %}) may have been a tad over-ambitious and ultimately unrealistic. While it would be cool to learn a new programming language *and* a new data storage paradigm at the same time, that would just be too much to bite off at one time and it would take soooo long before I could actually build anything significant with these new tools. Also, I'm currently wading through the quagmire of another important aspect of web development -- server administration. It can be...maddening.
+That [syllabus]({% post_url 2014-11-11-syllabus %}) may have been a tad over-ambitious and ultimately unrealistic. While it would be cool to learn a new programming language *and* a new data storage paradigm at the same time, that's just too much and it would take soooo long before I could actually build anything significant with these new tools. Also, I'm currently wading through the quagmire of another important aspect of web development -- server administration. It can be...maddening.
 
 <img src='/assets/frustrated.gif' alt='Frustrated' />
 
