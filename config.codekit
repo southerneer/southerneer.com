@@ -545,6 +545,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -578,6 +587,204 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/website\/assets\/2013-12-18-09.23.28.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 743195,
+		"inputAbbreviatedPath": "\/website\/assets\/2013-12-18-09.23.28.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/2013-12-18-09.23.28.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/3easia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42266,
+		"inputAbbreviatedPath": "\/website\/assets\/3easia.png",
+		"outputAbbreviatedPath": "\/website\/assets\/3easia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/3japan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41906,
+		"inputAbbreviatedPath": "\/website\/assets\/3japan.png",
+		"outputAbbreviatedPath": "\/website\/assets\/3japan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/chatt_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264184,
+		"inputAbbreviatedPath": "\/website\/assets\/chatt_bg.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/chatt_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/CodeComplete2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42767,
+		"inputAbbreviatedPath": "\/website\/assets\/CodeComplete2.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/CodeComplete2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/EK-1024x1024.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105161,
+		"inputAbbreviatedPath": "\/website\/assets\/EK-1024x1024.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/EK-1024x1024.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/ek-round.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 360936,
+		"inputAbbreviatedPath": "\/website\/assets\/ek-round.png",
+		"outputAbbreviatedPath": "\/website\/assets\/ek-round.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/head3_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146813,
+		"inputAbbreviatedPath": "\/website\/assets\/head3_bw.png",
+		"outputAbbreviatedPath": "\/website\/assets\/head3_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/jekyll.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 417534,
+		"inputAbbreviatedPath": "\/website\/assets\/jekyll.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/jekyll.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/kobe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46194,
+		"inputAbbreviatedPath": "\/website\/assets\/kobe.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/kobe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/mak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37310,
+		"inputAbbreviatedPath": "\/website\/assets\/mak.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/mak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/ou_example.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28254,
+		"inputAbbreviatedPath": "\/website\/assets\/ou_example.png",
+		"outputAbbreviatedPath": "\/website\/assets\/ou_example.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/ruby3-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53585,
+		"inputAbbreviatedPath": "\/website\/assets\/ruby3-small.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/ruby3-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/schrute.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 514112,
+		"inputAbbreviatedPath": "\/website\/assets\/schrute.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/schrute.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/Screen-Shot-2014-07-09-at-11.33.35-AM.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12803,
+		"inputAbbreviatedPath": "\/website\/assets\/Screen-Shot-2014-07-09-at-11.33.35-AM.png",
+		"outputAbbreviatedPath": "\/website\/assets\/Screen-Shot-2014-07-09-at-11.33.35-AM.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/seoul.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 542604,
+		"inputAbbreviatedPath": "\/website\/assets\/seoul.jpg",
+		"outputAbbreviatedPath": "\/website\/assets\/seoul.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/thickbox-easia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19289,
+		"inputAbbreviatedPath": "\/website\/assets\/thickbox-easia.png",
+		"outputAbbreviatedPath": "\/website\/assets\/thickbox-easia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/website\/assets\/thickbox-japan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19900,
+		"inputAbbreviatedPath": "\/website\/assets\/thickbox-japan.png",
+		"outputAbbreviatedPath": "\/website\/assets\/thickbox-japan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/website\/azure-websites-in-seoul.html": {
 		"fileType": 8192,
