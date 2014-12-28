@@ -7,6 +7,8 @@ published: true
 comments: true
 ---
 
+<img src='/assets/writing.jpg' alt='A letter' style='width:100%;height:auto;' />
+
 I recently received an email from my friend Sam...
 
 > Hey Eric and cc'd Clay,
