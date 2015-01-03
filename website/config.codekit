@@ -38,15 +38,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_layouts\/home.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/home.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_layouts\/page.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -281,15 +272,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_posts\/2014-11-03-wrangling-wordpress-cloud.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-11-03-wrangling-wordpress-cloud.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_sass\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -299,22 +281,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/_base.scss",
 		"outputAbbreviatedPath": "\/css\/_base.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/_sass\/_layout.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_layout.scss",
-		"outputAbbreviatedPath": "\/css\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -411,127 +377,6 @@
 		"initialSize": 146813,
 		"inputAbbreviatedPath": "\/assets\/head3_bw.png",
 		"outputAbbreviatedPath": "\/assets\/head3_bw.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/blueprints.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 404524,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/blueprints.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/blueprints.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/ek-round.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 360936,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/ek-round.png",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/ek-round.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/equals.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3665,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/equals.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/equals.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/equals.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5017,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/equals.png",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/equals.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/mouse.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 361246,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/mouse.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/mouse.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/outkast.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52477,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/outkast.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/outkast.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/plus.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7687,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/plus.png",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/plus.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/rocking_chair.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71146,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/rocking_chair.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/rocking_chair.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/southern_food.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 136599,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/southern_food.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/southern_food.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/sweet_tea.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75482,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/sweet_tea.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/sweet_tea.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/home-addition\/wood_grain.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 936014,
-		"inputAbbreviatedPath": "\/assets\/home-addition\/wood_grain.jpg",
-		"outputAbbreviatedPath": "\/assets\/home-addition\/wood_grain.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -646,17 +491,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/tools.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127458,
-		"inputAbbreviatedPath": "\/assets\/tools.jpg",
-		"outputAbbreviatedPath": "\/assets\/tools.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/writing.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -682,8 +516,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/main.scss",
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
@@ -784,105 +618,6 @@
 		"initialSize": 146813,
 		"inputAbbreviatedPath": "\/website\/assets\/head3_bw.png",
 		"outputAbbreviatedPath": "\/website\/assets\/head3_bw.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/blueprints.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 404524,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/blueprints.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/blueprints.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/ek-round.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 360936,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/ek-round.png",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/ek-round.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/equals.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3769,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/equals.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/equals.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/mouse.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 361246,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/mouse.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/mouse.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/outkast.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52477,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/outkast.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/outkast.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/rocking_chair.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71146,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/rocking_chair.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/rocking_chair.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/southern_food.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 136599,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/southern_food.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/southern_food.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/sweet_tea.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75482,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/sweet_tea.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/sweet_tea.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/website\/assets\/home-addition\/wood_grain.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 936014,
-		"inputAbbreviatedPath": "\/website\/assets\/home-addition\/wood_grain.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/home-addition\/wood_grain.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -997,17 +732,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/website\/assets\/tools.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127458,
-		"inputAbbreviatedPath": "\/website\/assets\/tools.jpg",
-		"outputAbbreviatedPath": "\/website\/assets\/tools.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/website\/assets\/writing.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1037,15 +761,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/website\/blog\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/website\/blog\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/website\/business-is-whispering.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1055,29 +770,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/website\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/website\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/website\/currently-active-deactivate.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/website\/currently-active-deactivate.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/website\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/website\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
