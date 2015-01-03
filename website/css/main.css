@@ -418,6 +418,47 @@ pre {
   font-size: 20px;
   color: #FF1975; }
 
+/****************************
+Home Header Addition Thingy
+****************************/
+.addition {
+  margin: 5% 5%; }
+  .addition .box {
+    width: 25%;
+    position: relative;
+    float: left; }
+  .addition .box:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* ratio of 1:1*/ }
+  .addition .sign {
+    width: 12.5%; }
+  .addition .frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%; }
+    .addition .frame div {
+      border-radius: 50%;
+      background-size: cover;
+      width: 95%;
+      height: 95%;
+      margin: 0 auto; }
+  .addition .southern {
+    background-image: url(/assets/home-addition/outkast.jpg); }
+  .addition .plus, .addition .equals {
+    margin: 60% 10% 0;
+    width: 80%;
+    height: auto; }
+  .addition .engineer {
+    background-image: url(/assets/home-addition/blueprints.jpg); }
+
+.page-content {
+  clear: both; }
+
 /**
  * Syntax highlighting styles
  */

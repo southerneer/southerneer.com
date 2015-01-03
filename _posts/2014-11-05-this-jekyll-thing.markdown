@@ -2,6 +2,7 @@
 layout: post
 title:  "This Jekyll Thing"
 date:   2014-11-05 10:03
+type: post
 published: true
 comments: true
 ---

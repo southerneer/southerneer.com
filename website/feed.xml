@@ -6,8 +6,8 @@
 </description>
     <link>http://southerneer.com/</link>
     <atom:link href="http://southerneer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Dec 2014 15:50:32 -0500</pubDate>
-    <lastBuildDate>Sun, 28 Dec 2014 15:50:32 -0500</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2015 21:30:36 -0500</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2015 21:30:36 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -238,17 +238,6 @@ Eric&lt;/p&gt;
       </item>
     
       <item>
-        <title>Wrangling Wordpress Cloud</title>
-        <description>&lt;p&gt;Wordpress is a fine tool for creating blog-based websites. It is a mature and popular platform which has the nice side benefit of lots of theme choices. Some themes have &quot;sophisticated&quot; configuration options that make it relatively easy for the average website user to customize the look and feel of the site. Just click a few buttons and slide a few sliders and you can make some pretty cool changes to a base theme. The nasty side of all these clever options is that they add a lot of overhead to the site&#39;s download footprint. I have had the unpleasant experience of my coworkers using these themes to get 95% of what they want in a website design and asking me to tweak the code to get the last 5% of what they want. This creates a huge headache.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Nov 2014 00:00:00 -0500</pubDate>
-        <link>http://southerneer.com/wrangling-wordpress-cloud.html</link>
-        <guid isPermaLink="true">http://southerneer.com/wrangling-wordpress-cloud.html</guid>
-        
-        
-      </item>
-    
-      <item>
         <title>Talking to normal people</title>
         <description>&lt;p&gt;I&#39;m an engineer by profession. And for better or worse, I&#39;m an engineer by train of thought. In particular, I have a very specific notion of &quot;truth&quot; and &quot;correct&quot;. I don&#39;t like to claim that I know how something works without having tested it myself or at least having it explained thoroughly by someone who has.&lt;/p&gt;
 &lt;p&gt;Let&#39;s say I&#39;m working on a web page and I need to add a button to pop up a message to the user. Simple. This is a common piece of functionality that I&#39;ve implemented a million times previously and I could write that code in my sleep. But if I were to do it right now I would still test it. I would have to. Because if you&#39;re a software engineer and you don&#39;t test your work then your work will suck. I prefer that my work not suck so I make sure that every little thing functions correctly before moving on.&lt;/p&gt;
@@ -307,6 +296,36 @@ Me: &quot;I&#39;m just sayin...but thanks for the tip and the general good vibes
         
         <category>work</category>
         
+        
+      </item>
+    
+      <item>
+        <title>Azure websites in Seoul</title>
+        <description>&lt;p&gt;Over the past few months I&#39;ve had to hack together a few Wordpress websites. I&#39;ve hosted everything in Azure Websites to simplify the backend administration and this has worked out pretty well for the most part. One thing about the process has tickled the back of my mind though: am I setting up my sites in such a way that they&#39;re served efficiently to end-users?&lt;/p&gt;
+&lt;p&gt;Right now I&#39;m based in Seoul and a few of the websites we&#39;ve set up (like &lt;a href=&quot;http://koreaultimate.net/&quot;&gt;KUPA&lt;/a&gt; and &lt;a href=&quot;http://redwoodshop.co.kr/&quot;&gt;Wooden Bow Ties&lt;/a&gt;) have content aimed at South Koreans. Unfortunately, Microsoft doesn&#39;t have any data centers in South Korea but there are &lt;a href=&quot;http://azure.microsoft.com/en-us/regions/#asia-pacific&quot;&gt;nearby choices&lt;/a&gt; of East Asia (Hong Kong), Southeast Asia (Singapore), and West Japan (Osaka). As the crow flies, Osaka is much closer to Seoul than the other two, but data doesn&#39;t always travel in a direct line so I decided to do a quick latency test of a typical Wordpress installation. The results were a bit surprising.&lt;/p&gt;
+&lt;p&gt;For my test I set up two identical Wordpress sites -- one hosted in the Japan West datacenter and one hosted in the East Asia datacenter. Then, using Google Chrome&#39;s &lt;a href=&quot;https://developers.google.com/chrome-developer-tools/&quot;&gt;dev tools&lt;/a&gt;, I measured the latency of requests for the same Wordpress Admin page. I chose to only compare requests that returned a 304 (not modified) response since this removes the variable of server processing and isolates the data roundtrip time. Here are the results:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;East Asia&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/3easia.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1081&quot; src=&quot;/assets/3easia.png&quot; alt=&quot;3easia&quot; width=&quot;705&quot; height=&quot;157&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-easia.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1101&quot; src=&quot;/assets/thickbox-easia.png&quot; alt=&quot;thickbox-easia&quot; width=&quot;702&quot; height=&quot;73&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;West Japan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-japan.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1071&quot; src=&quot;/assets/3japan.png&quot; alt=&quot;3japan&quot; width=&quot;713&quot; height=&quot;156&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-japan.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1091&quot; src=&quot;/assets/thickbox-japan.png&quot; alt=&quot;thickbox-japan&quot; width=&quot;710&quot; height=&quot;71&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Comparing the latency metrics (in the far right column) you&#39;ll notice that requests to West Japan took significantly longer than the same requests to East Asia. In this simple example the time difference is negligible, but in a typical Wordpress page request that serves up many different files (stylesheets, images, fonts, html, javascript, etc) the extra time would definitely add up to a significantly longer wait on each page load.&lt;/p&gt;
+&lt;p&gt;The upshot: any websites hosted on Azure that plan to serve information to users in Seoul should target the East Asia datacenter. While the West Japan datacenter might be geographically closer, there is obviously some routing inefficiency between there and Seoul which makes it a less desirable option.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Apr 2014 18:39:52 -0400</pubDate>
+        <link>http://southerneer.com/azure-websites-in-seoul.html</link>
+        <guid isPermaLink="true">http://southerneer.com/azure-websites-in-seoul.html</guid>
+        
+        <category>azure websites</category>
+        
+        <category>korea</category>
+        
+        <category>web dev</category>
+        
+        
+        <category>coding</category>
         
       </item>
     

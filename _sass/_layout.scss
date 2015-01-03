@@ -316,3 +316,72 @@
   font-size: 20px;
   color: #FF1975;
 }
+
+
+/****************************
+Home Header Addition Thingy
+****************************/
+.addition {
+  margin:5% 5%;
+
+  // make width equal height for doing frames
+  // http://css-tricks.com/forums/topic/sass-make-width-equal-height/
+  .box {
+    width: 25%;
+    position: relative;
+    float: left;
+  }
+  .box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;  /* ratio of 1:1*/
+  }
+  .sign {
+    width: 12.5%;
+  }
+
+  .frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    border-radius: 50%;
+    // background-image: url(/assets/wood_grain.jpg);
+    // background-size: cover;
+    // padding-top: 2.5%;
+
+    div {
+      border-radius: 50%;
+      background-size: cover;
+      width: 95%;
+      height: 95%;
+      margin: 0 auto;
+    }
+  }
+
+  .southern {
+    background-image: url(/assets/home-addition/outkast.jpg);
+  }
+
+  .plus, .equals {
+    margin: 60% 10% 0;
+    width: 80%;
+    height: auto;
+  }
+
+  .engineer {
+    background-image: url(/assets/home-addition/blueprints.jpg);
+  }
+
+  
+
+  .southerneer {
+
+  }
+}
+
+.page-content {
+  clear: both;
+}
