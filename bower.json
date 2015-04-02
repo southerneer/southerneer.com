@@ -1,0 +1,18 @@
+{
+  "name": "southerneer",
+  "version": "1.0.0",
+  "homepage": "https://github.com/southerneer/southerneer",
+  "authors": [
+    "Eric Kirkham <eric@southerneer.com>"
+  ],
+  "description": "southerneer.com website built on Jekyll",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
