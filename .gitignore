@@ -1,7 +1,9 @@
+.sass-cache
 node_modules
 build
 vendor
-app/bower_components
+dist
+app/_bower_components
 notes.txt
 
 # just use jekyll build to get the website part

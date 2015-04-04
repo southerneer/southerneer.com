@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class='addition'>
+
+      <div class='box'>
+        <div class='frame'>
+          <div class='southern'></div>
+        </div>
+      </div>
+
+      <div class='box sign'>
+        <div class='frame'>
+          <!-- <img src='/assets/images/home-addition/plus.png' class='plus' /> -->
+        </div>
+      </div>
+
+      <div class='box'>
+        <div class='frame'>
+          <div class='engineer'></div>
+        </div>
+      </div>
+
+      <div class='box sign'>
+        <div class='frame'>
+          <!-- <img src='/assets/images/home-addition/equals.png' class='equals' /> -->
+        </div>
+      </div>
+
+      <div class='box'>
+        <div class='frame'>
+          <!-- <img src='/assets/images/home-addition/ek-round.png' class='southerneer' /> -->
+          <div class='southerneer'></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="{{ '/assets/js/application.js' | prepend: site.baseurl }}"></script>
+
+    <script>
+      $(function() {
+        var add = {
+          southern: [
+            "outkast.jpg",
+            "rocking_chair.jpg",
+            "southern_food.jpg",
+            "sweet_tea.jpg"
+          ],
+          engineer: [
+            "blueprints.jpg",
+            "mouse.jpg",
+            "tools.jpg"
+          ]
+        };
+
+        window.setInterval(function() {
+          var pre = "/assets/images/home-addition/";
+
+          var rand = Math.floor( Math.random() * add.southern.length );
+          $(".southern").css("background-image", "url("+pre+add.southern[rand]+")");
+
+          rand = Math.floor( Math.random() * add.engineer.length );
+          $(".engineer").css("background-image", "url("+pre+add.engineer[rand]+")");
+        }, 5000);
+      });
+
+
+    </script>
+
+  </body>
+
+</html>

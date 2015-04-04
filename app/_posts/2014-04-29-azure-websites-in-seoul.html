@@ -1,0 +1,37 @@
+---
+layout: post
+title: Azure websites in Seoul
+date: 2014-04-29 18:39:52.000000000 -04:00
+categories:
+- Coding
+tags:
+- azure websites
+- korea
+- web dev
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _responsive_layout: default
+  _rawhtml_settings: '0,0,0,0'
+  _thumbnail_id: '1111'
+author:
+  login: admin
+  email: eric.kirkham@gmail.com
+  display_name: admin
+  first_name: ''
+  last_name: ''
+---
+<p>Over the past few months I've had to hack together a few Wordpress websites. I've hosted everything in Azure Websites to simplify the backend administration and this has worked out pretty well for the most part. One thing about the process has tickled the back of my mind though: am I setting up my sites in such a way that they're served efficiently to end-users?</p>
+<p>Right now I'm based in Seoul and a few of the websites we've set up (like <a href="http://koreaultimate.net/">KUPA</a> and <a href="http://redwoodshop.co.kr/">Wooden Bow Ties</a>) have content aimed at South Koreans. Unfortunately, Microsoft doesn't have any data centers in South Korea but there are <a href="http://azure.microsoft.com/en-us/regions/#asia-pacific">nearby choices</a> of East Asia (Hong Kong), Southeast Asia (Singapore), and West Japan (Osaka). As the crow flies, Osaka is much closer to Seoul than the other two, but data doesn't always travel in a direct line so I decided to do a quick latency test of a typical Wordpress installation. The results were a bit surprising.</p>
+<p>For my test I set up two identical Wordpress sites -- one hosted in the Japan West datacenter and one hosted in the East Asia datacenter. Then, using Google Chrome's <a href="https://developers.google.com/chrome-developer-tools/">dev tools</a>, I measured the latency of requests for the same Wordpress Admin page. I chose to only compare requests that returned a 304 (not modified) response since this removes the variable of server processing and isolates the data roundtrip time. Here are the results:</p>
+<h3><strong>East Asia</strong></h3>
+<p><a href="http://www.southerneer.com/wp-content/uploads/2014/04/3easia.png"><img class="aligncenter size-full wp-image-1081" src="/assets/3easia.png" alt="3easia" width="705" height="157" /></a></p>
+<p><a href="http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-easia.png"><img class="aligncenter size-full wp-image-1101" src="/assets/thickbox-easia.png" alt="thickbox-easia" width="702" height="73" /></a></p>
+<h3><strong>West Japan</strong></h3>
+<p><a href="http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-japan.png"><img class="aligncenter size-full wp-image-1071" src="/assets/3japan.png" alt="3japan" width="713" height="156" /></a></p>
+<p><a href="http://www.southerneer.com/wp-content/uploads/2014/04/thickbox-japan.png"><img class="aligncenter size-full wp-image-1091" src="/assets/thickbox-japan.png" alt="thickbox-japan" width="710" height="71" /></a></p>
+<p>&nbsp;</p>
+<p>Comparing the latency metrics (in the far right column) you'll notice that requests to West Japan took significantly longer than the same requests to East Asia. In this simple example the time difference is negligible, but in a typical Wordpress page request that serves up many different files (stylesheets, images, fonts, html, javascript, etc) the extra time would definitely add up to a significantly longer wait on each page load.</p>
+<p>The upshot: any websites hosted on Azure that plan to serve information to users in Seoul should target the East Asia datacenter. While the West Japan datacenter might be geographically closer, there is obviously some routing inefficiency between there and Seoul which makes it a less desirable option.</p>
