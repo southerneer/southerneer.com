@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Southerneer is a technology company dedicated to making beautifully functional
   things on the web.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://southerneer.com" # the base hostname & protocol for your site
+url: "http://localhost:9999" # the base hostname & protocol for your site
 twitter_username: iamsoutherneer
 github_username:  southerneer
 
@@ -15,6 +15,7 @@ markdown: kramdown
 # Outputting
 permalink: /:title.html
 
-destination: website
+source: ./app
+destination: ./build
 
-exclude: [bower.json, Capfile, Gemfile, Gemfile.lock, gulpfile.js, node_modules, notes.txt, package.json]
+# exclude: [assets/manifest.json, bower.json, bower_components, /lib, /config, Capfile, Gemfile, Gemfile.lock, gulpfile.js, node_modules, notes.txt, package.json]

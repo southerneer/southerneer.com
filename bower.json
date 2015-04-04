@@ -8,6 +8,12 @@
   "description": "southerneer.com website built on Jekyll",
   "license": "MIT",
   "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "jquery": "1.11.2",
+    "bootstrap-sass-official": "~3.3.4",
+    "fitvids": "~1.1.0"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
