@@ -5,6 +5,3 @@ vendor
 dist
 app/_bower_components
 notes.txt
-
-# just use jekyll build to get the website part
-website/*

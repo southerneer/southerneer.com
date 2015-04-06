@@ -83,6 +83,19 @@ module.exports = {
       outputName: 'head.js'
     }]
   },
+  concat: {
+    // Enable source maps
+    debug: true,
+    bundleConfigs: [{
+      entries:    './' + srcAssets + '/scripts/application.js',
+      dest:       developmentAssets + '/js',
+      outputName: 'application.js'
+    }, {
+      entries:    './' + srcAssets + '/scripts/head.js',
+      dest:       developmentAssets + '/js',
+      outputName: 'head.js'
+    }]
+  },
   images: {
     src:  srcAssets + '/images/**/*',
     dest: developmentAssets + '/images'

@@ -34,9 +34,11 @@
   "devDependencies": {
     "amdefine": "^0.1.0",
     "browser-sync": "^2.5.2",
-    "browserify": "^9.0.6",
+    "browserify": "^9.0.7",
     "browserify-shim": "^3.8.3",
     "del": "^1.1.1",
+    "detective": "^4.0.0",
+    "find-parent-dir": "^0.3.0",
     "glob": "^5.0.3",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.1.0",
@@ -64,10 +66,11 @@
     "gulp-webp": "^2.2.0",
     "gulp.spritesmith": "^3.5.3",
     "jshint-stylish": "^1.0.1",
-    "lodash": "^3.6.0",
-    "pretty-hrtime": "^1.0.0",
+    "lodash": "*",
+    "pretty-hrtime": "^0.2.0",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.0.2",
+    "transformify": "^0.1.2",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.1.0"
   }

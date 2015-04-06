@@ -6,6 +6,8 @@ var watchify     = require('watchify');
 var bundleLogger = require('../../util/bundleLogger');
 var handleErrors = require('../../util/handleErrors');
 var config       = require('../../config').browserify;
+// var concat_config       = require('../../config').concat;
+// var concat       = require('gulp-concat');
 
 /**
  * Run JavaScript through Browserify
@@ -70,6 +72,10 @@ gulp.task('scripts', function(callback) {
     return bundle();
   };
 
+  // var concatThis = function(bundleConfig) {}
+
   // Start bundling with Browserify for each bundleConfig specified
   config.bundleConfigs.forEach(browserifyThis);
+
+  // config.bundleConfigs.forEach(concatThis);
 });
