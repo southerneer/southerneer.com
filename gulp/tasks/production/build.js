@@ -23,7 +23,7 @@ gulp.task('build:production', function(callback) {
   'revision',
   'rev:collect',
   [
-    'webp',
+    // 'webp',
     'gzip'
   ],
   callback);

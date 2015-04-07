@@ -18,5 +18,7 @@ ga('send', 'pageview');
 
 
 $(function() {
+  $('.hero-bg h1').fadeIn(5000);
+
   $('.vidContainer').fitVids();
 });
