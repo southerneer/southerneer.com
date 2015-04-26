@@ -22,3 +22,9 @@ $(function() {
 
   $('.vidContainer').fitVids();
 });
+
+$('.site-logo-link').hover(function() {
+  $(this).find('img').attr('src', '/assets/images/main_logo_flipped.png');
+}, function() {
+  $(this).find('img').attr('src', '/assets/images/main_logo.png');
+})

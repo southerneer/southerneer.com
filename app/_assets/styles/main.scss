@@ -3,8 +3,9 @@
 
 
 // Our variables
-//$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-family:  "Open Sans", sans-serif;
+// $base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-family:  "Open Sans", sans-serif;
+$base-font-family: "Droid Serif", serif;
 $base-font-size:    16px;
 $font-size-base:    16px;
 $small-font-size:   $base-font-size * 0.875;
@@ -14,7 +15,6 @@ $spacing-unit:      30px;
 
 $text-color:        #111;
 $background-color:  #fdfdfd;
-$brand-color:       #2a7ae2;
 
 $grey-color:        #828282;
 $grey-color-light:  lighten($grey-color, 40%);
@@ -22,10 +22,21 @@ $grey-color-dark:   darken($grey-color, 25%);
 
 $maroon:            #9E1E1E;
 $maroon-light:      lighten($maroon, 40%);
-$azure:             #1E9E9E;
+
+// Southerneer logo colors
+$blue:              #00B0DC;
+$red:               #DC0000;
 
 $on-palm:           600px;
 $on-laptop:         800px;
+
+// Bootstrap variable customizations
+$brand-primary:     $blue !default;
+$link-color:        $brand-primary !default;
+$brand-color:       $brand-primary !default;
+$font-family-serif: "Droid Serif", serif;
+$font-family-base: "Droid Serif", serif;
+$headings-font-family:  "Open Sans", sans-serif;
 
 
 
@@ -42,13 +53,11 @@ $on-laptop:         800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "base",
   "../../_bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap",
   "layout",
+  "home",
   "syntax-highlighting"
-  
 ;

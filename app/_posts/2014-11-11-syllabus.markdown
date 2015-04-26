@@ -21,7 +21,7 @@ To that end, I'm devoting the next couple months to learning [NoSql](http://en.w
 
 So I could definitely learn up on MongoDB and use PHP to do the backend logic, but while I'm at it, I might as well go all the way and learn a new backend language. [Ruby on Rails](http://rubyonrails.org/) is what all the cool kids are using these days and I want to be cool. It's got a huge following which brings along with it lots of community support and, perhaps more importantly, there are lots of free tutorials out there for getting up to speed quickly. And then there's the dense, comprehensive, end-all be-all of Ruby development, the Ruby bible: [the Pickaxe](http://www.amazon.com/gp/product/1937785491/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1937785491&linkCode=as2&tag=southerneer-20&linkId=VSCPCPFRAIKUYDPO).
 
-<img src='/assets/ruby3-small.jpg' style='display:block; margin: 0 auto;' />
+<img src='/assets/images/blog/ruby3-small.jpg' style='display:block; margin: 0 auto;' />
 
 So I'm going to learn a totally new database paradigm AND a totally new language and framework. That sounds a bit daunting and I've been dragging my feet over the last few days because I keep thinking that it'll take forever. But if I break it down it doesn't sound so bad at all. 
 

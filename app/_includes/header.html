@@ -2,9 +2,12 @@
 
   <div class="wrapper">
 
-    <!--<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>-->
-    <a class="site-title" href="{{ site.baseurl }}/">
+    <!-- <a class="site-title" href="{{ site.baseurl }}/">
       <span class='bold'>Southern</span><span class='light'>eer</span>
+    </a> -->
+
+    <a class="site-logo-link" href="{{ site.baseurl }}/">
+      <img src='/assets/images/main_logo.png' />
     </a>
 
     <nav class="site-nav">
@@ -18,12 +21,26 @@
 
       <div class="trigger">
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% if page.category contains 'portfolio' %}
+
+          {% else %}
+            {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
+
+        <a href="https://github.com/{{ site.github_username }}" class='page-link page-link-icon'>
+          <i class="fa fa-github"></i>
+        </a>
+
+        <a href="https://twitter.com/{{ site.twitter_username }}" class='page-link page-link-icon'>
+          <i class="fa fa-twitter"></i>
+        </a>
       </div>
     </nav>
+
+    
 
   </div>
 

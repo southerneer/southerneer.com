@@ -9,7 +9,7 @@ comments: true
 
 That [syllabus]({% post_url 2014-11-11-syllabus %}) may have been a tad over-ambitious and ultimately unrealistic. While it would be cool to learn a new programming language *and* a new data storage paradigm at the same time, that's just too much and it would take soooo long before I could actually build anything significant with these new tools. Also, I'm currently wading through the quagmire of another important aspect of web development -- server administration. It can be...maddening.
 
-<img src='/assets/frustrated.gif' alt='Frustrated' />
+<img src='/assets/images/blog/frustrated.gif' alt='Frustrated' />
 
 In past posts I've mentioned my love-hate relationship with Microsoft's Azure cloud system. While Microsoft offers a wide variety of cloud services to the open source crowd, the only first-class citizens in Azure land are pure Microsoft. I base this claim mostly on [Azure websites](http://azure.microsoft.com/en-us/services/websites/) in particular. They make it easy to spin up a bunch of different flavors of web platforms in a few seconds. This is great for testing and demo purposes. But the devil is in the details and for non-Microsoft applications Azure just isn't set up for primetime.
 
