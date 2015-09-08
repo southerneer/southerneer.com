@@ -11,206 +11,40 @@
     position: relative;
   }
 
-  // .site-title {
-  //   font-size: 26px;
-  //   line-height: 56px;
-  //   letter-spacing: -1px;
-  //   margin-bottom: 0;
-  //   float: left;
+  .navbar {
+    margin-bottom: 0px;
+  }
+  .navbar-nav {
+    font-size: 1.5em;
 
-  //   &,
-  //   &:visited {
-  //     color: $maroon;
-  //   }
-
-  //   .bold {
-  //     font-weight: bold;
-  //   }
-  //   .light {
-  //     font-weight: lighter;
-  //     color: $azure;
-  //   }
-  // }
-
-  .site-logo-link {
-    float: left;
-
-    img {
-      height: 50px;
-      width: auto;
-      margin: 10px auto;
-
-      @media screen and (max-width: $screen-sm) {
-        width: 80%;
-        height: auto;
-      }
-
+    // nav icons
+    .page-link-icon .fa {
+      font-size: 1.1em;
+      position: relative;
+      bottom: 2px;
     }
   }
 
-  .site-nav {
-    float: right;
-    // line-height: 56px;
-    line-height: 70px;
+  .navbar-brand {
+    display:block;
+    padding: 0;
+    margin: 10px 15px;
+    margin-left: 0px !important;
+    height: auto;
 
-    // need to get up over the fancy overlay thingy on the home page
-    z-index: 2;
-
-    .menu-icon {
-      display: none;
-    }
-
-    .page-link {
-      // color: $text-color;
-      color: $link-color;
-      // color: #00B0DC;
-      line-height: $base-line-height;
-
-      // Gaps between nav items, but not on the first one
-      &:not(:first-child) {
-        margin-left: 20px;
-      }
-    }
-
-    .page-link-icon {
-      font-size: 1.3em;
-      text-decoration: none;
-    }
-
-    @include media-query($on-palm) {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: $background-color;
-      border: 1px solid $grey-color-light;
-      border-radius: 5px;
-      text-align: right;
-
-      .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center;
-
-        > svg {
-          width: 18px;
-          height: 15px;
-
-          path {
-            fill: $grey-color-dark;
-          }
-        }
-      }
-
-      .trigger {
-        clear: both;
-        display: none;
-      }
-
-      &:hover .trigger {
-        display: block;
-        padding-bottom: 5px;
-      }
-
-      .page-link {
-        display: block;
-        padding: 5px 10px;
-      }
+    & > img {
+      max-width: 200px;
+      height: auto;
     }
   }
 
+  .navbar-toggle {
+    border-color: #ddd;
 
-
-/**
- * Site footer
- */
-
-//  // need a sticky footer
-//  * {
-//   margin: 0;
-// }
-// html, body {
-//   height: 100%;
-// }
-// .main-wrapper {
-//   min-height: 100%;
-//   height: auto !important;
-//   height: 100%;
-//   margin: 0 auto -200px;
-// }
-// .site-footer, .push {
-//   height: 200px;
-// }
-
-.site-footer {
-  border-top: 1px solid $grey-color-light;
-    // border-top: 1px solid $azure;
-    padding: $spacing-unit 0;
-  }
-
-  .footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-  }
-
-  .contact-list,
-  .social-media-list {
-    list-style: none;
-    margin-left: 0;
-  }
-
-  .footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-  }
-
-  .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-  }
-
-  .footer-col-1 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-2 {
-    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-    width:         calc(25% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-  }
-
-  @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-      width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-      width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-      width:         calc(100% - (#{$spacing-unit} / 2));
+    .icon-bar {
+      background-color: #888;
     }
   }
-
-  @include media-query($on-palm) {
-    .footer-col {
-      float: none;
-      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-      width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-  }
-
 
 
 /**
@@ -256,36 +90,8 @@
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1;
-
-  @include media-query($on-laptop) {
-    font-size: 36px;
-  }
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
-
-  h2 {
-    font-size: 32px;
-
-    @include media-query($on-laptop) {
-      font-size: 28px;
-    }
-  }
-
-  h3 {
-    font-size: 26px;
-
-    @include media-query($on-laptop) {
-      font-size: 22px;
-    }
-  }
-
-  h4 {
-    font-size: 20px;
-
-    @include media-query($on-laptop) {
-      font-size: 18px;
-    }
-  }
 }
