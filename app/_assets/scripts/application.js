@@ -1,6 +1,5 @@
 require('jquery');
 require('bootstrap-sass');
-require('fitvids');
 
 
 /******************** GA pageview ********************/

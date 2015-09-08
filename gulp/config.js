@@ -201,7 +201,7 @@ module.exports = {
       options: {}
     },
     images: {
-      src:  developmentAssets + '/images/**/*.{jpg,jpeg,png,gif}',
+      src:  developmentAssets + '/images/**/*.{jpg,jpeg,png,gif,ico}',
       dest: productionAssets + '/images/',
       options: {
         optimizationLevel: 3,
