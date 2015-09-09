@@ -12,10 +12,10 @@ category: portfolio
     }
 </style>
 
-<img src='/assets/images/portfolio/kia-dev.jpg' alt='Deving hard' class='col-lg-12' />
+<!-- <img src='/assets/images/portfolio/kia-dev.jpg' alt='Deving hard' class='col-lg-12' />
 <img src='/assets/images/portfolio/kia-under.jpg' alt='Setting up' class='col-lg-12' />
 
-<iframe class='col-lg-12' style='margin: 20px auto 20px;' width="640" height="360" src="https://www.youtube.com/embed/8GAv4zoK5n4" frameborder="0" allowfullscreen></iframe>
+<iframe class='col-lg-12' style='margin: 20px auto 20px;' width="640" height="360" src="https://www.youtube.com/embed/8GAv4zoK5n4" frameborder="0" allowfullscreen></iframe> -->
 
 **Partners**: Humanaut, Redwood
 

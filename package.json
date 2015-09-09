@@ -19,8 +19,7 @@
   "browser": {
     "modernizr": "./app/_bower_components/modernizr/modernizr.js",
     "jquery": "./app/_bower_components/jquery/dist/jquery.js",
-    "bootstrap-sass": "./app/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js",
-    "fitvids": "./app/_bower_components/fitvids/jquery.fitvids.js"
+    "bootstrap-sass": "./app/_bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"
   },
   "browserify-shim": {
     "modernizr": "Modernizr",

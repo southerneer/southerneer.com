@@ -9,9 +9,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "modernizr": "2.8.2",
+    "bootstrap-sass": "~3.3.5",
     "jquery": "^2.1.4",
-    "bootstrap-sass-official": "~3.3.4"
+    "modernizr": "2.8.2"
   },
   "ignore": [
     "**/.*",

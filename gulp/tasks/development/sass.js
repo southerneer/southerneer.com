@@ -23,17 +23,24 @@ gulp.task('sass', function() {
   browsersync.notify('Compiling Sass');
 
   // return gulp.src(config.sass.src)
-  return sass(config.sass.src, config.sass.options)
-    .on('error', function (err) {
-      console.error('Error', err.message);
-     })
+  return sass(config.sass.src, sassConfig)
+
+    // .on('error', function (err) {
+    //   console.error('Error', err.message);
+    //  })
+
     .pipe(plumber())
+
     // .pipe(debug())
+
     // .pipe(sass(sassConfig))
+    // .pipe(sourcemaps.init())
+
     // .pipe(sourcemaps.write())
+
     .pipe(autoprefixer(config.autoprefixer))
     .pipe(filter) // Don’t write sourcemaps of sourcemaps
-    .pipe(sourcemaps.write('.', { includeContent: false }))
+    .pipe(sourcemaps.write('.', { includeContent: false })) // this is broken
     .pipe(filter.restore()) // Restore original files
     .pipe(gulp.dest(config.sass.dest));
 });

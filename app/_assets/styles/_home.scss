@@ -2,54 +2,122 @@
  * index.html - Home page
  */
 
-.hero-bg {
-  height: 500px;
-  width: 100%;
-  // background: url('/assets/images/chatt_bg.jpg') no-repeat;
-  // background-size: cover;
-  position: relative;
+// .hero-bg {
+//   height: 500px;
+//   width: 100%;
+//   // background: url('/assets/images/chatt_bg.jpg') no-repeat;
+//   // background-size: cover;
+//   position: relative;
 
-  &::after {
-    content: "";
-    background: url('/assets/images/chatt_bg.jpg') no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
+//   &::after {
+//     content: "";
+//     background: url('/assets/images/chatt_bg.jpg') no-repeat;
+//     background-size: cover;
+//     opacity: 0.8;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     position: absolute;
+//     z-index: -1;   
+//   }
 
-  h1 {
-    text-align: center;
-    font-size: 5em;
-    color: #FFF;
-    text-shadow: 2px 2px #323232;
-    // color: #000;
-    // text-shadow: 1px 1px #DDD;
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    display: none;
-    // visibility: hidden;
-  }
+//   h1 {
+//     text-align: center;
+//     font-size: 5em;
+//     color: #FFF;
+//     text-shadow: 2px 2px #323232;
+//     // color: #000;
+//     // text-shadow: 1px 1px #DDD;
+//     position: absolute;
+//     bottom: 10px;
+//     width: 100%;
+//     display: none;
+//     // visibility: hidden;
+//   }
 
-  @media screen and (max-width: $screen-sm) {
-    h1 {
-      font-size: 3em;
-      bottom: 20px;
-    }
-  }
-}
+//   @media (max-width: $screen-sm-max) {
+//     h1 {
+//       font-size: 3em;
+//       bottom: 20px;
+//     }
+//   }
+// }
 
 
 .home {
-  p, ul, li { font-size: 1.3em; }
+  
 }
 
 img.hero {
   width: 100%;
   margin: 40px auto;
+}
+
+p.intro {
+  // max-width: 500px;
+  margin: 10px 0 40px;
+  font-size: 1.5em;
+  font-family: $headings-font-family;
+
+  @media (max-width: $screen-xs-max) {
+    font-size: 1.2em;
+    // line-height: 1em;
+  }
+}
+
+$br: 20px;
+
+.portfolio {
+  border-radius: $br;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  a {
+    opacity: 0;
+    @include transition(opacity .5s ease);
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: $br;
+
+    // vertically centered image trick: http://stackoverflow.com/a/7310398/476228
+    &:before {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      width: 95%; // HACK: not sure why I should have to do this
+    }
+
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: $headings-font-family;
+
+    @media (max-width: $screen-xs-max) {
+      font-size: 1em;
+      line-height: 1em;
+    }
+  }
+
+  &:hover {
+    a {
+      opacity: 1;
+    }
+  }
 }

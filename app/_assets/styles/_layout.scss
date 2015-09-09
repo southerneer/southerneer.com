@@ -13,6 +13,7 @@
 
   .navbar {
     margin-bottom: 0px;
+    font-family: $headings-font-family;
   }
   .navbar-nav {
     font-size: 1.5em;
@@ -22,6 +23,11 @@
       font-size: 1.1em;
       position: relative;
       bottom: 2px;
+    }
+
+    a:hover {
+      background-color: transparent !important;
+      text-decoration: underline !important;
     }
   }
 
