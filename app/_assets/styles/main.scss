@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 // Our variables
 // $base-font-family: Helvetica, Arial, sans-serif;
 // $base-font-family:  "Open Sans", sans-serif;
@@ -16,12 +14,9 @@ $spacing-unit:      30px;
 $text-color:        #111;
 $background-color:  #fdfdfd;
 
-$grey-color:        #828282;
-$grey-color-light:  lighten($grey-color, 40%);
-$grey-color-dark:   darken($grey-color, 25%);
-
-$maroon:            #9E1E1E;
-$maroon-light:      lighten($maroon, 40%);
+$grey:        #828282;
+$grey-light:  lighten($grey, 40%);
+$grey-dark:   darken($grey, 25%);
 
 // Southerneer logo colors
 $blue:              #00B0DC;
@@ -34,11 +29,15 @@ $brand-color:       $brand-primary !default;
 $font-family-serif: "Droid Serif", serif;
 $font-family-base: "Droid Serif", serif;
 $headings-font-family:  "Open Sans", sans-serif;
+$icon-font-path: '../fonts/'; // correct for bootstrap's bower stuff
 
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
   // "base",
+
+  // TODO: this is a bit gross...do some wiredep here instead. See the brononymous gulpfile for help
   "../../_bower_components/bootstrap-sass/assets/stylesheets/_bootstrap",
+
+
   "layout",
   "home"
 ;

@@ -1,27 +1,8 @@
 ---
 layout: post
 title: Azure websites in Seoul
-date: 2014-04-29 18:39:52.000000000 -04:00
-categories:
-- Coding
-tags:
-- azure websites
-- korea
-- web dev
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '1'
-  _responsive_layout: default
-  _rawhtml_settings: '0,0,0,0'
-  _thumbnail_id: '1111'
-author:
-  login: admin
-  email: eric.kirkham@gmail.com
-  display_name: admin
-  first_name: ''
-  last_name: ''
+date: 2014-04-29
+published: false
 ---
 <p>Over the past few months I've had to hack together a few Wordpress websites. I've hosted everything in Azure Websites to simplify the backend administration and this has worked out pretty well for the most part. One thing about the process has tickled the back of my mind though: am I setting up my sites in such a way that they're served efficiently to end-users?</p>
 <p>Right now I'm based in Seoul and a few of the websites we've set up (like <a href="http://koreaultimate.net/">KUPA</a> and <a href="http://redwoodshop.co.kr/">Wooden Bow Ties</a>) have content aimed at South Koreans. Unfortunately, Microsoft doesn't have any data centers in South Korea but there are <a href="http://azure.microsoft.com/en-us/regions/#asia-pacific">nearby choices</a> of East Asia (Hong Kong), Southeast Asia (Singapore), and West Japan (Osaka). As the crow flies, Osaka is much closer to Seoul than the other two, but data doesn't always travel in a direct line so I decided to do a quick latency test of a typical Wordpress installation. The results were a bit surprising.</p>

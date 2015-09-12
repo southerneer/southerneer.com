@@ -43,8 +43,8 @@ module.exports = {
     }
   },
   sass: {
-    // src:  srcAssets + '/styles/**/*.{sass,scss}',
-    src:  srcAssets + '/styles/',
+    src:  srcAssets + '/styles/**/*.{sass,scss}',
+    // src:  srcAssets + '/styles/',
     dest: developmentAssets + '/css',
     options: {
       noCache: true,
@@ -112,7 +112,7 @@ module.exports = {
   },
   copyfonts: {
     development: {
-      src:  srcAssets + '/fonts/*',
+      src:  srcAssets + '/fonts/**/*',
       dest: developmentAssets + '/fonts'
     },
     production: {

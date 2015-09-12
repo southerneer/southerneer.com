@@ -9,20 +9,18 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-28630641-1', 'auto');
 ga('send', 'pageview');
 
-
-// $(function() {
-//   $('.hero-bg h1').fadeIn(5000);
-// });
-
-// $('.site-logo-link').hover(function() {
-//   $(this).find('img').attr('src', '/assets/images/main_logo_flipped.png');
-// }, function() {
-//   $(this).find('img').attr('src', '/assets/images/main_logo.png');
-// });
-
 (function($) {
 
+  // no hover on portfolio in touch-land
   if( Modernizr.touch ) {
     $('.portfolio a').css('opacity', 1).css('background', 'rgba(0,0,0,0.4)');
   }
+
+  // emails
+  $('.contact-email').click(function(ev) {
+    ev.preventDefault();
+    window.open("mailto:eric@southerneer.com");
+    return false;
+  });
+
 })(jQuery);

@@ -4,18 +4,13 @@ title: Kia CAS social media mashup display
 permalink: /kia-cas/
 published: true
 category: portfolio
+hero_img: 'portfolio/kia-dev.jpg'
+hero_img_alt: 'Deving hard'
 ---
 
-<style type='text/css'>
-    img {
-        margin-bottom: 20px;
-    }
-</style>
-
-<!-- <img src='/assets/images/portfolio/kia-dev.jpg' alt='Deving hard' class='col-lg-12' />
-<img src='/assets/images/portfolio/kia-under.jpg' alt='Setting up' class='col-lg-12' />
-
-<iframe class='col-lg-12' style='margin: 20px auto 20px;' width="640" height="360" src="https://www.youtube.com/embed/8GAv4zoK5n4" frameborder="0" allowfullscreen></iframe> -->
+<div class="embed-responsive embed-responsive-16by9" style='margin: 20px auto 20px;' >
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8GAv4zoK5n4" allowfullscreen></iframe>
+</div>
 
 **Partners**: Humanaut, Redwood
 
@@ -39,4 +34,4 @@ Based on some feedback we got at the event itself I had to scramble to put toget
 
 At the end of the week we were all exhausted from the combination of long hours and high stress of the event. But with a satisfied client it was a good exhaustion and we crashed after a few celebratory drinks on Friday night.
 
-<img src='/assets/images/portfolio/kia-celebration.png' alt='Celebration' class='col-lg-12' />
+<img src='/assets/images/portfolio/kia-celebration.png' alt='Celebration' style='width:100%; height: auto;' />

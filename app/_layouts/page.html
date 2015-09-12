@@ -7,8 +7,24 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <article class="post-content col-md-8 col-md-offset-2">
+  <article class="post-content col-md-8">
+
+    {% if page.hero_img %}
+      <img src='/assets/images/{{ page.hero_img }}' class='hero_img' alt='{{page.hero_img_alt}}' title='{{page.hero_img_alt}}' />
+    {% endif %}
+
     {{ content }}
   </article>
+
+  <aside class="col-md-4">
+    <div class='contact-widget'>
+
+      <p>Like what you see? Want to know more?</p>
+
+      <p>
+        <span class='glyphicon glyphicon-envelope'></span> <a href='#' class='contact-email' target='_blank'>Shoot me an email</a>
+      </p>
+    </div>
+  </aside>
 
 </div>
