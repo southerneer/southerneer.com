@@ -102,13 +102,16 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  .hero_img {
+  img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 
     // got this from the jekyll site...seems overly complicated?
     @include box-shadow(0 1px 5px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.2), inset 0 -1px 0 rgba(0,0,0,0.3));
+  }
+
+  .hero_img {
+    margin-bottom: 20px;
   }
 }
 
