@@ -14,5 +14,8 @@ hero_img_alt: 'New MacDonald microsite'
 
 **Technology stack**: [ScrollMagic](http://scrollmagic.io/), PHP, Elastic Beanstalk
 
-This project came in hot just as we were hitting crunch time with the [KIA Chicago Auto Show project](/kia-cas/). It was really fun working with ScrollMagic to create user-controlled animations as they scrolled down the page, but this project was a blur dev-wise and I didn't really get to spend much time tweaking it and making everything smooth. One of these I really want to try another project and add in some really nice animations to bring it to life.
+Humanaut and Redwood were trying to find a way to promote the advantages of growing and buying organic food and through this collaboration we were able to deliver a one-page site that conveyed that message in an interesting and entertaining way. There was the basic Twitter and Facebook share buttons to help get the word out, but the really fun part is further down the page where the viewport locks in and through the user's scroll action an animation sequence plays out telling the story of New MacDonald (the industrialized farm) vs. Old MacDonald (the sustainable, traditional farm).
 
+![New MacDonald screenshot](/assets/images/portfolio/new-mac-screen.jpg)
+
+[ScrollMagic](http://scrollmagic.io/) really came in handy for setting up the animation piece and with a little elbow grease we even made a scaled down version of the animation sequence for viewing on mobile devices. My only regret is not getting to spend more time fine-tuning and expanding on the animation portion of the site...really fun stuff.
