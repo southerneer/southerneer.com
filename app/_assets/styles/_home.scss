@@ -30,6 +30,7 @@ $br: 20px;
   img {
     width: 100%;
     height: auto;
+    @include transition(all .5s ease);
   }
 
   a {
@@ -71,6 +72,9 @@ $br: 20px;
   &:hover {
     a {
       opacity: 1;
+    }
+    img {
+      @include scale(1.03);
     }
   }
 }
