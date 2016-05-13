@@ -23,10 +23,21 @@ gulp.task('sass', function() {
 
   // return gulp.src(config.sass.src)
   return sass(config.sass.src, sassConfig)
-    .pipe(sourcemaps.init())
-    .pipe(autoprefixer(config.autoprefixer))
-    .pipe(filter) // Don’t write sourcemaps of sourcemaps
-    .pipe(sourcemaps.write('.', { includeContent: false }))
-    .pipe(filter.restore()) // Restore original files
+    .on('error', sass.logError)
+    // .pipe(sourcemaps.init())
+    // .pipe(autoprefixer(config.autoprefixer))
+    // .pipe(filter) // Don’t write sourcemaps of sourcemaps
+    // .pipe(sourcemaps.write('.', { includeContent: false }))
+    // .pipe(filter.restore()) // Restore original files
+
+    // for inline sourcemaps
+    .pipe(sourcemaps.write())
+    
+    // for file sourcemaps
+    // .pipe(sourcemaps.write('maps', {
+    //     includeContent: false,
+    //     sourceRoot: 'source'
+    // }))
+
     .pipe(gulp.dest(config.sass.dest));
 });
