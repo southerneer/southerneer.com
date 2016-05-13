@@ -9,7 +9,7 @@ img.hero {
 
 p.intro {
   // max-width: 500px;
-  margin: 10px 0 40px;
+  margin: 40px 0 40px;
   font-size: 1.5em;
   font-family: $headings-font-family;
 
@@ -21,11 +21,16 @@ p.intro {
 
 $br: 20px;
 
+.proj-col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .portfolio {
   // border-radius: $br;
   overflow: hidden;
   position: relative;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
 
   img {
     width: 100%;
