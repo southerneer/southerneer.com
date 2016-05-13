@@ -22,7 +22,7 @@ p.intro {
 $br: 20px;
 
 .portfolio {
-  border-radius: $br;
+  // border-radius: $br;
   overflow: hidden;
   position: relative;
   margin-bottom: 30px;
@@ -41,7 +41,7 @@ $br: 20px;
     top: 0;
     bottom: 0;
     width: 100%;
-    border-radius: $br;
+    // border-radius: $br;
 
     // vertically centered image trick: http://stackoverflow.com/a/7310398/476228
     &:before {
