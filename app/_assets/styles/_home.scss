@@ -83,3 +83,24 @@ $br: 20px;
     }
   }
 }
+
+.headshot {
+  max-width: 100%;
+  height: auto;
+}
+// .col-headshot {
+.row-headshot {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: $screen-xs-max) {
+    display: block;
+
+    .headshot { max-width: 50%; margin-left: auto; margin-right: auto; display: block; }
+  }
+}
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

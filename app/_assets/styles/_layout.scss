@@ -18,6 +18,11 @@
   .navbar-nav {
     font-size: 1.5em;
 
+    .page-link {
+      text-transform: lowercase;
+      font-weight: bold;
+    }
+
     // nav icons
     .page-link-icon .fa {
       font-size: 1.1em;

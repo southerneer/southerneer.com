@@ -5,7 +5,7 @@ permalink: /about/
 published: false
 ---
 
-What's a "Southerneer"? That's a combination of "southerner" and "engineer". You see, I was born and raised in North Carolina and I fiddle with websites and technology from time to time.
+What's a "Southerneer"? That's a combination of "southerner" and "engineer". I was born and raised in North Carolina and I fiddle with websites and technology from time to time.
 
 What can I do for you? Anything web-related is right in my wheelhouse. Got an idea for a website but need help making it a reality? I'm on it. Got a site already but it sucks. I understand, I've seen it a million times before, and I can help. Looking to take an existing site to the next level? I can help you think through that process, advise on best practices and technologies, and execute on that plan.
 
