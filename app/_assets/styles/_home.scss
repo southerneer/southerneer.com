@@ -36,6 +36,8 @@ $br: 20px;
     width: 100%;
     height: auto;
     @include transition(all .5s ease);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
   }
 
   a {
@@ -59,11 +61,12 @@ $br: 20px;
       display: inline-block;
       vertical-align: middle;
       width: 95%; // HACK: not sure why I should have to do this
+      text-shadow: 2px 2px #000;
     }
 
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.7);
+    // background: rgba(0,0,0,0.7);
     font-size: 1.5em;
     text-decoration: none;
     font-family: $headings-font-family;
@@ -80,6 +83,8 @@ $br: 20px;
     }
     img {
       @include scale(1.03);
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0%);
     }
   }
 }

@@ -11,7 +11,8 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "jquery": "^2.1.4",
-    "modernizr": "2.8.2"
+    "modernizr": "2.8.2",
+    "font-awesome": "^4.6.3"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -19,6 +20,12 @@
         "assets/stylesheets/_bootstrap.scss",
         "assets/fonts/bootstrap/*",
         "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "scss/font-awesome.scss",
+        "fonts/*"
       ]
     }
   },
@@ -28,5 +35,6 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {}
 }
