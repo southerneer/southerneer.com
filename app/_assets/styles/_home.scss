@@ -36,8 +36,8 @@ $br: 20px;
     width: 100%;
     height: auto;
     @include transition(all .5s ease);
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
   }
 
   a {
@@ -108,4 +108,8 @@ $br: 20px;
 .row {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
 }

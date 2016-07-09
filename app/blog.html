@@ -1,0 +1,38 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<style type='text/css'>
+  .dev-col {
+    border: 1px solid #999;
+    padding: 10px 10px 20px 20px;
+    border-radius: 15px;
+  }
+</style>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-md-8'>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class='col-md-4 dev-col'>
+      <h3>Nerd Alert!</h3>
+      <p>If you're looking for posts of a more technical nature, check out my <a href='https://medium.com/@southerneer'>Medium profile</a> where I write about Javascript, React, React Native, Webpack, Node, and all sorts of other developer-y goodness.
+    </div>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  </div>
+</div>

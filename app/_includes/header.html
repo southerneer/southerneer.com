@@ -16,7 +16,7 @@
       <div class="collapse navbar-collapse" id="my-navbar">
         <ul class="nav navbar-nav navbar-right">
 
-          <li><a class="page-link contact-email" href="#">Contact</a></li>
+          
 
           {% for page in site.pages %}
             {% if page.category contains 'portfolio' %}
@@ -34,9 +34,17 @@
             </a>
           </li> -->
 
+          <li><a class="page-link contact-email" href="#">Contact</a></li>
+
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}" class='page-link page-link-icon'>
               <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://medium.com/@{{ site.medium_username }}" class='page-link page-link-icon'>
+              <i class="fa fa-medium"></i>
             </a>
           </li>
           
